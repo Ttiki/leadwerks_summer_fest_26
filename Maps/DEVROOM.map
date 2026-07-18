@@ -1,0 +1,833 @@
+{
+	"scene": {
+		"base": "Maps/DEVROOM.map",
+		"entities": [
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 96,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 104,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 112,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 120,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 12,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 128,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 16,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 136,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 20,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 24,
+							"indices": 2064,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 24,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 144
+						}
+					],
+					"vertexcount": 8,
+					"vertices": 0
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x37000000",
+					"0xbe23d70a",
+					"0x0",
+					"0x3f800000"
+				],
+				"name": "Box",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0x37000000",
+					"0xbe23d70a",
+					"0x0"
+				],
+				"quaternion": [
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"uuid": "efb19256-e9e6-4bf4-9bb6-8e4697e9f736",
+				"viewrange": 0.0
+			},
+			{
+				"castshadows": false,
+				"collisiontype": 0,
+				"components": {
+					"FPSPlayer": {
+						"croucheyeheight": 0.7,
+						"eyeheight": 1.65,
+						"flashlighton": false,
+						"initialslot": 0,
+						"jumpforce": 4.2,
+						"jumplunge": 1.2,
+						"mouselookspeed": 1.0,
+						"mousesmoothing": 0.0,
+						"movespeed": 4.0,
+						"slot0": "",
+						"slot1": "",
+						"slot2": "",
+						"slot3": ""
+					}
+				},
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Entities"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x3e23d70a",
+					"0x0",
+					"0x3f800000"
+				],
+				"name": "Pivot",
+				"navobstacle": false,
+				"physicsmode": 0,
+				"pickmode": 0,
+				"position": [
+					"0x0",
+					"0x3e23d70a",
+					"0x0"
+				],
+				"quaternion": [
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"uuid": "0454d030-c086-40e4-86ac-fe23672b343b",
+				"viewrange": 0.0
+			},
+			{
+				"castshadows": true,
+				"collisiontype": 1,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"mass": 0.0,
+				"matrix": [
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x40ae147b",
+					"0x0",
+					"0x40ae147b",
+					"0x3f800000"
+				],
+				"model": {
+					"islimb": false,
+					"path": "Models/Vegetation/alocasia_macrorrhiza1_LOD1.mdl"
+				},
+				"name": "alocasia_macrorrhiza1_LOD1",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0x40ae147b",
+					"0x0",
+					"0x40ae147b"
+				],
+				"quaternion": [
+					"0x80000000",
+					"0x80000000",
+					"0x80000000",
+					"0x3f800000"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x80000000",
+					"0x0",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"uuid": "deb22c9e-56af-4161-ae4e-87fe128c7795",
+				"viewrange": 0.0
+			},
+			{
+				"castshadows": true,
+				"collisiontype": 0,
+				"color": [
+					2.0,
+					1.899999976158142,
+					1.7000000476837158,
+					1.0
+				],
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"directionallight": {
+					"cascadedistance": [
+						4.0,
+						8.0,
+						16.0,
+						32.0
+					],
+					"range": [
+						-500.0,
+						500.0
+					],
+					"shadowmapsize": 1024
+				},
+				"elasticity": 0.4000000059604645,
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"matrix": [
+					"0x3f51b3f4",
+					"0x32800000",
+					"0xbf12d5e5",
+					"0x0",
+					"0x3ef08fae",
+					"0x3f12d5ea",
+					"0x3f2bc74d",
+					"0x0",
+					"0x3ea8715a",
+					"0xbf51b3ef",
+					"0x3ef08fb8",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"navobstacle": false,
+				"physicsmode": 0,
+				"pickmode": 0,
+				"position": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"quaternion": [
+					"0xbee17926",
+					"0xbe8890bd",
+					"0x3e0e2ed1",
+					"0x3f5890a5"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x425c0000",
+					"0x420c0000",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"uuid": "56b87c8f-b06e-4d5d-b89e-27c26ea0b04e",
+				"viewrange": 0.0
+			}
+		],
+		"environment": {
+			"ambientlight": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"diffusereflection": {
+				"path": "Materials/Environment/Default/diffuse.dds"
+			},
+			"fog": false,
+			"fogangle": [
+				0.0,
+				15.0
+			],
+			"fogcolor": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"fogrange": [
+				0.0,
+				1000.0
+			],
+			"gitransmission": 2.0,
+			"iblintensity": 0.5,
+			"specularreflection": {
+				"path": "Materials/Environment/Default/specular.dds"
+			},
+			"sunangle": [
+				0.0,
+				0.0
+			],
+			"suncolor": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		"extras": {
+			"viewports": [
+				{
+					"cameraposition": [
+						11.6049,
+						6.04638,
+						-8.93854
+					],
+					"camerarotation": [
+						19.2476,
+						310.039,
+						0.0
+					],
+					"gridsize": 0,
+					"view": 0,
+					"zoom": 1.42815
+				},
+				{
+					"cameraposition": [
+						-120.968,
+						-6.68071e-06,
+						-37.3613
+					],
+					"camerarotation": [
+						90.0,
+						0.0,
+						0.0
+					],
+					"gridsize": 6,
+					"view": 3,
+					"zoom": 0.754746
+				},
+				{
+					"cameraposition": [
+						0.102286,
+						-0.0205641,
+						0.0
+					],
+					"camerarotation": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"gridsize": 0,
+					"view": 5,
+					"zoom": 60.0
+				},
+				{
+					"cameraposition": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"camerarotation": [
+						0.0,
+						90.0,
+						0.0
+					],
+					"gridsize": 0,
+					"view": 1,
+					"zoom": 60.0
+				}
+			]
+		},
+		"groups": [
+			{
+				"id": "2390929849984",
+				"name": "Brushes"
+			},
+			{
+				"id": "2390929842240",
+				"name": "Entities"
+			},
+			{
+				"id": "2390929865472",
+				"name": "Models"
+			}
+		]
+	}
+} ÷(œB
+×#>ö(œB÷(œÂ
+×#>ö(œB÷(œÂ
+×#>ö(œÂ÷(œB
+×#>ö(œÂ÷(œB
+×#¾ö(œB÷(œÂ
+×#¾ö(œB÷(œÂ
+×#¾ö(œÂ÷(œB
+×#¾ö(œÂ                           ÷(œB
+×#>ö(œÂ      €?     ôA  ôA  €?   €   €   €   €  €¿                    
+×#@÷(œÂ
+×#>ö(œÂ      €?      ôÁ  ôA  €?   €   €   €   €  €¿                    
+×#@÷(œB
+×#>ö(œB      €?     ôA  ôÁ  €?   €   €   €   €  €¿                    
+×#@÷(œÂ
+×#>ö(œB      €?      ôÁ  ôÁ  €?   €   €   €   €  €¿                    
+×#@÷(œB
+×#¾ö(œB      €¿     ôÁ  ôÁ  €¿           €   €  €¿                    
+×#@÷(œÂ
+×#¾ö(œB      €¿      ôA  ôÁ  €¿           €   €  €¿                    
+×#@÷(œB
+×#¾ö(œÂ      €¿     ôÁ  ôA  €¿           €   €  €¿                    
+×#@÷(œÂ
+×#¾ö(œÂ      €¿      ôA  ôA  €¿           €   €  €¿                    
+×#@÷(œB
+×#>ö(œB   €      €? ôÁ      €¿           €  €¿   €                    
+×#@÷(œÂ
+×#>ö(œB   €      €?  ôA      €¿           €  €¿   €                    
+×#@÷(œB
+×#¾ö(œB   €      €? ôÁ   >  €¿           €  €¿   €                    
+×#@÷(œÂ
+×#¾ö(œB   €      €?  ôA   >  €¿           €  €¿   €                    
+×#@÷(œÂ
+×#>ö(œÂ   €   €  €¿  ôÁ      €?           €  €¿   €                    
+×#@÷(œB
+×#>ö(œÂ   €   €  €¿ ôA      €?           €  €¿   €                    
+×#@÷(œÂ
+×#¾ö(œÂ   €   €  €¿  ôÁ   >  €?           €  €¿   €                    
+×#@÷(œB
+×#¾ö(œÂ   €   €  €¿ ôA   >  €?           €  €¿   €                    
+×#@÷(œÂ
+×#>ö(œB  €¿          ôÁ              €¿   €  €¿   €                    
+×#@÷(œÂ
+×#>ö(œÂ  €¿          ôA              €¿   €  €¿   €                    
+×#@÷(œÂ
+×#¾ö(œB  €¿          ôÁ   >          €¿   €  €¿   €                    
+×#@÷(œÂ
+×#¾ö(œÂ  €¿          ôA   >          €¿   €  €¿   €                    
+×#@÷(œB
+×#¾ö(œB  €?          ôA   >   €   €  €?   €  €¿   €                    
+×#@÷(œB
+×#¾ö(œÂ  €?          ôÁ   >   €   €  €?   €  €¿   €                    
+×#@÷(œB
+×#>ö(œB  €?          ôA       €   €  €?   €  €¿   €                    
+×#@÷(œB
+×#>ö(œÂ  €?          ôÁ       €   €  €?   €  €¿   €                    
+×#@                         
+      	                                          

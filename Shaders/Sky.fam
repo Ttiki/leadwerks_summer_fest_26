@@ -1,0 +1,19 @@
+{
+	"shaderfamily":
+	{
+		"shaders":
+		{
+			"opaque":
+			{
+				"default":
+				{
+					"base":
+					{
+						"vertex": "Shaders/Sky/Sky.vert",
+						"fragment": "Shaders/Sky/Sky.frag"
+					}
+				}
+			}
+		}
+	}
+}

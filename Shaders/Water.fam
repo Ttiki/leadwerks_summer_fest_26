@@ -1,0 +1,68 @@
+{
+	"shaderfamily":
+	{
+		"root": "./PBR.fam",
+		"textures":
+		[
+			"Scroll",
+			"Animation"
+		],
+		"shaders":
+		{
+			"mask":
+			{
+				"default":
+				{
+					"base":
+					{
+						"fragment": "Shaders/Water/Fragment_Masked.frag",
+						"transparency": "Shaders/Water/Fragment_Masked.frag"
+					}
+				},
+				"triangles":
+				{
+					"base":
+					{
+						"fragment": "Shaders/Water/Fragment_Masked.frag",
+						"transparency": "Shaders/Water/Fragment_Masked.frag"
+					}
+				},
+				"quads":
+				{
+					"base":
+					{
+						"fragment": "Shaders/Water/Fragment_Masked.frag",
+						"transparency": "Shaders/Water/Fragment_Masked.frag"
+					}
+				}					
+			},
+			"opaque":
+			{
+				"default":
+				{
+					"base":
+					{
+						"fragment": "Shaders/Water/Fragment.frag",
+						"transparency": "Shaders/Water/Fragment.frag"
+					}
+				},		
+				"triangles":
+				{
+					"base":
+					{
+						"fragment": "Shaders/Water/Fragment.frag",
+						"transparency": "Shaders/Water/Fragment.frag"
+					}
+				},
+				"quads":
+				{
+					"base":
+					{
+						"fragment": "Shaders/Water/Fragment.frag",
+						"transparency": "Shaders/Water/Fragment.frag"
+					}
+				}
+			}
+		}			
+	}
+}

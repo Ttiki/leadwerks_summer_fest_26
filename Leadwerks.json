@@ -1,0 +1,20 @@
+{
+	"project":
+	{
+		"brushtexelspermeter": 400.0,
+		"debugcommandline": "-devmode +map \"$MAPFILE\"",
+		"debugexecutable": "SummerFest_TheIsland_d.exe",
+		"embedmaterialtextures": false,
+		"engineversion": "5.0.2",
+		"filetypeblacklist": "bin, meta, collider",
+		"gridbasesize": 0.16,
+		"language": "C++",
+		"majorgridlines": 8.0,
+		"name": "SummerFest_TheIsland",
+		"password": "[k!yYwWgqm$lZlh:[#i)n2BCXm[h@kaK1!6TT]%MW;hBnoB{P=>vD@vCXSL@K}*5",
+		"runcommandline": "-devmode +map \"$MAPFILE\"",
+		"runexecutable": "SummerFest_TheIsland.exe",
+		"template": "Common",
+		"uuid": "e69b811f-ee39-4cb5-9efe-c3b8fd19a2b2"
+	}
+}
