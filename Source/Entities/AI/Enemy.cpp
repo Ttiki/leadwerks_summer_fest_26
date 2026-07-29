@@ -107,6 +107,7 @@ std::shared_ptr<Player> Enemy::GetEntityPlayer(shared_ptr<Entity> entity)
         auto player = c->As<Player>();
         if (player) return player;
     }
+    return nullptr;
 }
 
 void Enemy::ScanForTarget()

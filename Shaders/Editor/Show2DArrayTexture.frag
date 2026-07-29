@@ -1,19 +1,27 @@
 #version 450
-#extension GL_ARB_separate_shader_objects : enable
-//#extension GL_EXT_multiview : enable
-#extension GL_ARB_bindless_texture : enable
 
-#include "../Base/Fragment.glsl"
+#include "../Common/Constants.glsl"
+#include "../Common/Uniforms.glsl"
+#include "../Common/Materials.glsl"
 #include "../Utilities/DepthFunctions.glsl"
+
+uniform layout(binding = 0) sampler2DArray texture0;
+
+in vec4 color;
+in vec4 TexCoords;
+
+out vec4 outColor;
 
 void main()
 {    
-    Material mtl = materials[materialID];
+    Material mtl;
+	UnpackMaterial(MaterialIndex[0], mtl);
+	
     vec4 basecolor = mtl.diffuseColor * color;
 
-    outColor[0] = basecolor;
-    vec3 tc = texcoords.xyz;
+    outColor = basecolor;
+    vec3 tc = TexCoords.xyz;
     tc.z = mtl.emissiveColor.g;
-    if (mtl.textureHandle[0] != uvec2(0)) outColor[0] *= textureLod(sampler2DArray(mtl.textureHandle[0]), tc, mtl.emissiveColor.r);
-    if ((RenderFlags & RENDERFLAGS_TRANSPARENCY) != 0) outColor[0].rgb *= outColor[0].a;
+    outColor *= textureLod(texture0, tc, mtl.emissiveColor.r);
+    if ((RenderFlags & RENDERFLAGS_TRANSPARENCY) != 0) outColor.rgb *= outColor.a;
 }

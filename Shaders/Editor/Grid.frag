@@ -1,11 +1,30 @@
 #version 450
 //#extension GL_EXT_multiview : enable
 #extension GL_ARB_separate_shader_objects : enable
-#extension GL_ARB_bindless_texture : enable
+//#extension GL_ARB_bindless_texture : enable
 
-#include "../Base/Fragment.glsl"
+//#include "../Base/Fragment.glsl"
 #include "../Utilities/PackSelectionState.glsl"
 #include "../Utilities/DepthFunctions.glsl"
+#include "../Base/Materials.glsl"
+
+in vec4 color;
+in vec4 vertexWorldPosition;
+
+
+layout(location = 0) out vec4 Out_Albedo;
+layout(location = 1) out vec4 Out_Normal;
+layout(location = 2) out vec4 Out_PBR;
+
+
+uniform int MajorGridLines = 8;
+uniform int MinorGridLines = 1;
+uniform vec2 CameraRange = vec2(0.1, 1000);
+uniform float CameraZoom;
+uniform vec3 CameraPosition;
+uniform ivec4 DrawViewport;
+uniform uint materialID = 0;
+vec2 BufferSize = vec2(DrawViewport.x, DrawViewport.w);
 
 float filterWidth2(vec2 uv)
 {
@@ -65,153 +84,29 @@ float gridAAOrigin(vec2 p, in float gridThickness)
     return mix(t, x, clamp(l, 0., 1.));
 }
 
+//------------------------------------------------------
+// Main Loop
+//------------------------------------------------------
+
 void main()
 {
-    float gridsize = color.r;
+    //Material material = materials[ MaterialIndex[0] ];
     
-    Material material = materials[materialID];
-    outColor[0] = material.diffuseColor * color;
-    uvec2 textureID = material.textureHandle[TEXTURE_DIFFUSE];
-    if (textureID != uvec2(0)) outColor[0] *= texcoords;
-
-    vec3 eyedir = CameraPosition - vertexWorldPosition.xyz;
-    float d = length(eyedir);
-    eyedir /= d;
-    float slope = degrees(asin(eyedir.y));
-
-    float screenscale = 400.0f / float(DrawViewport.w);
-
-    float gridThickness = max(0.0001f, pow(d, 1.0f / CameraZoom) * 0.001f) / gridsize;
+    //------------------------------------------------------
+    // Albedo
+    //------------------------------------------------------
     
-    gridThickness *= screenscale; 
-
-    //float gridThickness = max(0.0001f, abs(CameraPosition.y) * 0.0001f);
-    //float gridThickness = 0.1f;
-
-    //const float gridThickness = 0.0001f;
-
-    float minorlines = gridAASimple(vertexWorldPosition.xz / gridsize, gridThickness) * 0.1251875f;
-
-    float majorlines = gridAASimple(vertexWorldPosition.xz / float(MajorGridLines) / gridsize, gridThickness / color.g) * 0.25f;
-
-    //float origin = min(1.0f, gridAAOrigin(vertexWorldPosition.xz, gridThickness) * 2.0f);
-
-    //d = abs(CameraPosition.y);
-
-    float minorlinesrange = 100.0f;
-    float originrange = 500.0f;
-    float majorlinesrange = originrange;
-
-    if (d > minorlinesrange* gridsize)
-    {
-        minorlines *= max(0.0f, 1.0f - (d - minorlinesrange * gridsize) / (minorlinesrange * gridsize));
-        //minorlines = 0.0f;
-        
-    }
-
-    if (d > majorlinesrange)
-    {
-        //majorlines = 0.0f;
-        majorlines *= max(0.0f,  1.0f - (d - majorlinesrange) / (majorlinesrange));
-    }
-
-    float origin = 0.0f;
+    Out_Albedo = vec4(0,1,0,1);
+	
+    //------------------------------------------------------
+    // Normals / Pixel flags
+    //------------------------------------------------------
+	
+    Out_Normal = vec4(0.5,0.5,0.5,0.0);
     
-    float f = abs(vertexWorldPosition.x) / d;
-    float r = 0.004f;
+    //------------------------------------------------------
+    // Occlusion / Roughness / Metalness / Emission
+    //------------------------------------------------------
     
-    r *= screenscale; 
-
-    //r *= 20.0f * (slope / 90.0f);
-    float hr = r * 0.5f;
-    if (f < r) origin = clamp(1.0f - f / r, 0.0f, 1.0f);
-    f = abs(vertexWorldPosition.z) / d;
-    if (f < r) origin = max(origin, clamp(1.0f - f / r, 0.0f, 1.0f));
-    origin *= 0.5f;
-
-    if (d > originrange)
-    {
-        //majorlines = 0.0f;
-        origin *= max(0.0f,  1.0f - (d - originrange) / (originrange));
-    }
-
-    //float g = max(majorlines, minorlines);
-    float g = max(max(majorlines, minorlines), origin);
-    g = clamp(g, 0.0f, 1.0f);
-
-    if (abs(slope) < 15.0)
-    {
-        g *= abs(slope) / 15.0;
-    }
-    if (abs(CameraPosition.y) < CameraRange.x * 2.0)
-    {
-        g *= max(0.0, (abs(CameraPosition.y) - CameraRange.x) / CameraRange.x);
-    }
-
-    outColor[0] = vec4(1.0f, 1.0f, 1.0f, g);
-
-    /*const float tolerance = 0.1f;
-    if (abs(mod(vertexWorldPosition.x, 8.0f)) < tolerance) outColor[0].rgb = vec3(1.0f);//vec3(1.0f,0.5f,0.5f);
-    if (abs(mod(vertexWorldPosition.z, 8.0f)) < tolerance) outColor[0].rgb = vec3(1.0f);//vec3(0.5f,0.5f,1.0f);
-
-    if (abs(vertexWorldPosition.x) < tolerance) outColor[0].rgb = vec3(1);//vec3(1.0f,0.5f,0.5f);
-    if (abs(vertexWorldPosition.z) < tolerance) outColor[0].rgb = vec3(1);//vec3(0.5f,0.5f,1.0f);*/
-
-    //Camera distance fog
-    //ApplyDistanceFog(outColor[0].rgb, vertexWorldPosition.xyz, CameraPosition);
-
-	//TODO: this is a hack to handle refraction...needs to be changed
-	if ((RenderFlags & RENDERFLAGS_OUTPUT_ZPOSITION) != 0)
-	{
-		outColor[0].a = 1.0f;
-	}
-
-    int attachmentindex = 0;
-
-    //Deferred normals
-    if ((RenderFlags & RENDERFLAGS_OUTPUT_NORMALS) != 0)
-    {
-        ++attachmentindex;
-        outColor[attachmentindex] = vec4(0,1,0,g);
-    }
-
-    //Deferred metal / roughness
-    if ((RenderFlags & RENDERFLAGS_OUTPUT_METALLICROUGHNESS) != 0)
-    {
-        ++attachmentindex;
-        outColor[attachmentindex].r = 0.0f;
-        outColor[attachmentindex].g = 1.0f;
-        outColor[attachmentindex].b = 0.0f;
-        outColor[attachmentindex].a = g;
-#ifdef PREMULTIPLY_AlPHA
-        if ((RenderFlags & RENDERFLAGS_TRANSPARENCY) != 0)
-        {
-        //    outColor[attachmentindex].rgb *= outColor[attachmentindex].a;
-        }
-#endif
-    }
-
-    //Deferred base color
-    if ((RenderFlags & RENDERFLAGS_OUTPUT_ALBEDO) != 0)
-    {
-        ++attachmentindex;
-        outColor[attachmentindex] = vec4(1.0f, 1.0f, 1.0f, g);
-        #ifdef PREMULTIPLY_AlPHA
-        //if (Transparency)
-        //{
-        //    outColor[attachmentindex].rgb *= outColor[attachmentindex].a;
-        //}
-        #endif
-    }
-
-    //Deferred Z-position
-    if ((RenderFlags & RENDERFLAGS_OUTPUT_ZPOSITION) != 0)
-    {
-        ++attachmentindex;
-        float d = PositionToDepth(vertexCameraPosition.z, CameraRange);
-        outColor[attachmentindex] = vec4(d, d, d, 1.0f);
-        //outColor[attachmentindex] = vec4(1.0f);
-    }  
-
-
+    Out_PBR = vec4(1.0, 1.0, 0.0, 1.0);
 }

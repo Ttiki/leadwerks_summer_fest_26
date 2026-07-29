@@ -1,12 +1,17 @@
-#version 460
+#version 450
 layout(local_size_x = 4, local_size_y = 4, local_size_z = 1) in;
 
-#define UNIFORMSTARTINDEX 13
+#include "../Math/Math.glsl"
+#include "../Common/Materials.glsl"
 
-#include "../Base/Materials.glsl"
-#include "../Base/UniformBlocks.glsl"
-#include "../Base/CameraInfo.glsl"
-#include "../Base/DrawElementsIndirectCommand.glsl"
+struct DrawElementsIndirectCommand
+{
+    uint count;
+    uint instanceCount;
+    uint firstIndex;
+    int baseVertex;
+    uint baseInstance;
+};
 
 layout(binding = 9, std430) writeonly buffer DrawInstancesIDBlock
 {
@@ -28,19 +33,21 @@ layout(binding = 8, std430) buffer IndirectDrawBlock
     DrawElementsIndirectCommand drawcommands[];
 };
 
-layout(location = 5) uniform ivec2 resolution;
-layout(location = 6) uniform vec2 spacing;
-layout(binding = 0) uniform sampler2D elevationmap;
-layout(location = 1) uniform vec4 meshbounds;
-layout(location = 12) uniform vec3 terrainscale;
-layout(location = 2) uniform ivec2 gridoffset;
-layout(binding = 1) uniform usampler2D visibilitymap;
-layout(location = 3) uniform vec3 lodposition;
-layout(location = 4) uniform float maxviewdistance;
-layout(location = 9) uniform int maxlod;
-layout(binding = 2) uniform usampler2D variationmap;
-layout(location = 10) uniform int maxvariations;
-layout(location = 11) uniform int cameraislight;
+uniform vec4 CameraFrustumPlanes[6];
+uniform ivec2 resolution;
+uniform vec2 spacing;
+uniform vec4 meshbounds;
+uniform vec3 terrainscale;
+uniform ivec2 gridoffset;
+uniform vec3 lodposition;
+uniform float maxviewdistance;
+uniform int maxlod;
+uniform int maxvariations;
+uniform int cameraislight;
+
+uniform layout(binding = 0) sampler2D elevationmap;
+uniform layout(binding = 1) usampler2D visibilitymap;
+uniform layout(binding = 2) usampler2D variationmap;
 
 uint powtable[16];
 
@@ -73,7 +80,7 @@ vec4 GetInstancePosition(in uint id, in mat4 noise)
     p += noise * vec4(meshbounds.xyz, 1.0f);
 
     p.y += texture(elevationmap, texcoord).r * terrainscale.y;
-
+	
     return p;
 }
 
@@ -89,13 +96,16 @@ bool GetInstanceVisible(in vec3 p, in mat4 noise)
     //if (abs(p.x) > p.z) return false;
 
     float radius = -meshbounds.w * length(noise[0].xyz);
-
-    if (PlaneDistanceToPoint(CameraFrustumPlane0, p) < radius) return false;
-    if (PlaneDistanceToPoint(CameraFrustumPlane1, p) < radius) return false;
-    if (PlaneDistanceToPoint(CameraFrustumPlane2, p) < radius) return false;
-    if (PlaneDistanceToPoint(CameraFrustumPlane3, p) < radius) return false;
-    if (PlaneDistanceToPoint(CameraFrustumPlane4, p) < radius) return false;
-    if (PlaneDistanceToPoint(CameraFrustumPlane5, p) < radius) return false;
+	
+	//testing...
+	//radius = 0.0;
+	
+    if (PlaneDistanceToPoint(CameraFrustumPlanes[0], p) < radius) return false;
+    if (PlaneDistanceToPoint(CameraFrustumPlanes[1], p) < radius) return false;
+    if (PlaneDistanceToPoint(CameraFrustumPlanes[2], p) < radius) return false;
+    if (PlaneDistanceToPoint(CameraFrustumPlanes[3], p) < radius) return false;
+    if (PlaneDistanceToPoint(CameraFrustumPlanes[4], p) < radius) return false;
+    if (PlaneDistanceToPoint(CameraFrustumPlanes[5], p) < radius) return false;
     
     return true;
 }
@@ -155,7 +165,7 @@ void main()
     uint variationstart = 0u;
     uint offset = 0u;
     uint v = variation;
-    variationstart = drawdata[(v * 16u) + 0u];
+    //variationstart = drawdata[(v * 16u) + 0u];
     uint countlods = drawdata[(v * 16u) + 1u];
     vec4 loddistance;
     loddistance.x = uintBitsToFloat(drawdata[(v * 16u) + 2u]);
@@ -203,14 +213,12 @@ void main()
     uint meshcount = drawdata[(((v * 16u) + 8u) + 1u) + (l * 2u)];
     for (int m = 0; uint(m) < meshcount; m++)
     {
-        uint commandindex = drawdata[lodstart + uint(m)];
-        uint _983 = atomicAdd(drawcommands[commandindex].instanceCount, 1u);
-        drawindex = _983;
+		uint commandindex = drawdata[lodstart + uint(m)];
+        drawindex = atomicAdd(drawcommands[commandindex].instanceCount, 1u);
         if (m == 0)
         {
             instanceids[drawcommands[commandindex].baseInstance + drawindex] = id;
-            instances++;
+            ++instances;
         }
     }
 }
-

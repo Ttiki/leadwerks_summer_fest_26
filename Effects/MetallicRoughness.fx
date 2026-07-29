@@ -4,14 +4,9 @@
         "subpasses":
         [
             {
-                "samplers": ["METALLICROUGHNESS"],
-                "shader":
-                {
-                    "float32":
-                    {
-                        "fragment": "Shaders/PostEffects/MetallicRoughness.frag"
-                    }
-                }
+                "samplers" : ["METALLICROUGHNESS"],
+                "shader" : "Shaders/PostEffects/Albedo/Albedo.frag",
+        		"multisampleshader" : "Shaders/PostEffects/Albedo/Albedo_MS.frag"
             }
         ]
     }

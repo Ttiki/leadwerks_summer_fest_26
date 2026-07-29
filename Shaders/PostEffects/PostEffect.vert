@@ -1,10 +1,13 @@
-#version 460
+#version 450
+#include "../Common/Vertex.glsl"
 
-const vec4 vertexpos[4] = {vec4(0,-1,0,1), vec4(0,0,0,1), vec4(1,0,0,1), vec4(1,-1,0,1)};
+out vec2 TexCoords;
 
 void main()
 {
-	vec4 pos = vertexpos[gl_VertexID - gl_BaseVertex];// gl_BaseVertex requires GLSL 4.60
+	vec4 pos = vec4(VertexPosition, 1.0);
+	
+	TexCoords = VertexTexCoords;
 	
 	mat4 orthomatrix = mat4(0.0f);
 	orthomatrix[0][0] = 2.0f;
@@ -13,7 +16,6 @@ void main()
 	orthomatrix[3][0] = -1.0f;
 	orthomatrix[3][1] = -1.0f;
 	orthomatrix[3][3] = 1.0f;
-	orthomatrix[1] *= -1.0f;
-
+	
 	gl_Position = orthomatrix * pos;
 }

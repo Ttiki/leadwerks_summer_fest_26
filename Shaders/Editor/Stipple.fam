@@ -1,22 +1,10 @@
 {
 	"shaderfamily":
 	{
-		"static":
+		"root": "Shaders/PBR.fam",
+		"shaders":
 		{
-			"float":
-			{
-				"opaque":
-				{
-					"default":
-					{
-						"base":
-						{
-							"vertex": "Shaders/PBR/PBR.vert",
-							"fragment": "Shaders/Editor/Stipple.frag"	
-						}
-					}
-				}
-			}
+			"solid": "Shaders/Editor/Stipple.frag"
 		}
 	}
 }

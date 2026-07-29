@@ -1,42 +1,24 @@
-#version 460
-#extension GL_ARB_shader_draw_parameters : enable
-#extension GL_ARB_bindless_texture : enable
+#version 450
+#include "../Common/Vertex.glsl"
 
 // Inputs
-layout(location = 0) uniform mat4 matrix;
-layout(location = 1) uniform uvec2 texturehandle = uvec2(0);
-layout(location = 2) uniform vec4 clipregion = vec4(0);
-
-#define UNIFORMSTARTINDEX 8
-
-#include "../Utilities/ISO646.glsl"
-#include "../Base/InstanceInfo.glsl"
-#include "../Base/PushConstants.glsl"
-#include "../Base/VertexLayout.glsl"
-#include "../Base/Limits.glsl"
-#include "../Math/Math.glsl"
-#include "../Base/EntityInfo.glsl"
-#include "../Base/CameraInfo.glsl"
-#include "../Base/UniformBlocks.glsl"
+uniform mat4 matrix;
+uniform vec4 clipregion = vec4(0);
 
 // Outputs
-layout(location = 0) out vec4 color;
-layout(location = 1) flat out vec3 emissioncolor;
-layout(location = 2) out vec2 texcoords;
-
-#ifndef RENDERFLAGS_RENDERTOTEXTURE
-    #define RENDERFLAGS_RENDERTOTEXTURE 4096
-#endif
+out vec4 color;
+flat out vec3 emissioncolor;
+out vec2 TexCoords;
 
 void main()
-{
+{ 
     int flip = 0;
     if ((RenderFlags & RENDERFLAGS_RENDERTOTEXTURE) != 0) flip = 1;
-
-    vec2 BufferSize = vec2(DrawViewport.z, DrawViewport.w);
+    
+    vec2 BufferSize = vec2(float(DrawViewport.z), float(DrawViewport.w));
     vec2 pixeloffset = vec2(0.5f, -0.5f);
 
-    vec4 pos = VertexPosition;
+    vec4 pos = vec4(VertexPosition, 1.0);
     
     if (flip == 1) pixeloffset.y *= 1.0f;
 
@@ -47,7 +29,7 @@ void main()
     color.g = matrix[1][3];
     color.b = matrix[2][3];
     color.a = matrix[3][3];
-
+	
     pos = m * pos;
 
     pos.xy += pixeloffset;
@@ -67,11 +49,11 @@ void main()
 	orthomatrix[3][3] = 1.0f;
 	orthomatrix[1] *= -1.0f;
 
-    texcoords = ExtractVertexTexCoords().xy;
+    TexCoords = VertexTexCoords.xy;
 
     gl_Position = orthomatrix * pos;
 
-    vec2 clippos = (m * VertexPosition).xy;
+    vec2 clippos = (m * vec4(VertexPosition, 1.0)).xy;
 
     gl_ClipDistance[0] = (clippos.x - clipregion.x) / BufferSize.x;
     gl_ClipDistance[1] = (clippos.y - clipregion.y) / BufferSize.y;

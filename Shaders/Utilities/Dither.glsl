@@ -5,6 +5,8 @@
 
 //https://www.anisopteragames.com/how-to-fix-color-banding-with-dithering/
 
+// This is extremely slow on Intel HD 630. Don't use this.
+
 const uint ditherpattern[64] = {
     0, 32,  8, 40,  2, 34, 10, 42,   /* 8x8 Bayer ordered dithering  */
     48, 16, 56, 24, 50, 18, 58, 26,  /* pattern.  Each input pixel   */
@@ -17,12 +19,20 @@ const uint ditherpattern[64] = {
 
 // "Then at the end of the fragment shader add the scaled dither texture to the fragment color. I don’t fully understand the 32.0 divisor here – I think 64 is the correct value but 32 (or even 16) looks much better."
 
-float dither(ivec2 coord)
+float dit her(ivec2 coord)
 {
+	return 0.0;
+	
 	int dithercoord = coord.x * 8 + coord.y;
 	dithercoord = dithercoord % 64;
 	float d = float(ditherpattern[dithercoord]) / 255.0f;
 	d /= 16.0f - (1.0f / 128.0f);
     return d;
 }
+
+float dither()
+{
+	return dither(ivec2(gl_FragCoord.x, gl_FragCoord.y));
+}
+
 #endif

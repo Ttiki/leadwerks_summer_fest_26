@@ -39,6 +39,7 @@ public:
     std::shared_ptr<Widget> cancelquitbutton;
     std::shared_ptr<Widget> optionspanel;
     std::shared_ptr<Widget> tabber;
+    std::shared_ptr<Widget> upscalelist;
     std::shared_ptr<Widget> okbutton;
     std::shared_ptr<Widget> cancelbutton;
     std::shared_ptr<Widget> videopanel;
@@ -51,7 +52,6 @@ public:
     std::shared_ptr<Widget> shadowqualitylist;
     std::shared_ptr<Widget> tessellationlist;
     std::shared_ptr<Widget> vsyncbutton;
-    std::shared_ptr<Widget> refractionbutton;
     std::shared_ptr<Widget> ssrbutton;
     std::shared_ptr<Widget> terrainshadowsbutton;
     std::shared_ptr<Interface> ui;

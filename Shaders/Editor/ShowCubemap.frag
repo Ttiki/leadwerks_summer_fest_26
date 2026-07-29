@@ -1,9 +1,11 @@
 #version 450
 #extension GL_ARB_separate_shader_objects : enable
 //#extension GL_EXT_multiview : enable
-#extension GL_ARB_bindless_texture : enable
+//#extension GL_ARB_bindless_texture : enable
 
-#include "../Base/Fragment.glsl"
+#include "../Common/Uniforms.glsl"
+#include "../Common/Constants.glsl"
+#include "../Common/Materials.glsl"
 #include "../Utilities/DepthFunctions.glsl"
 
 vec4 sampleCubemapLike2DTexture(in samplerCube tex, in vec2 texcoords, in int miplevel, in int face) {
@@ -34,14 +36,24 @@ vec4 sampleCubemapLike2DTexture(in samplerCube tex, in vec2 texcoords, in int mi
     return textureLod(tex, normalize(direction), miplevel);
 }
 
+in vec4 color;
+in vec4 TexCoords;
+
+out vec4 outColor;
+
+uniform layout(binding = 0) samplerCube tex;
+
 void main()
 {    
-    Material mtl = materials[materialID];
+    Material mtl;
+	UnpackMaterial(MaterialIndex[0], mtl);
+	
     vec4 basecolor = mtl.diffuseColor * color;
 
-    outColor[0] = basecolor;
+    outColor = basecolor;
     
     // Base texture color
-    if (mtl.textureHandle[0] != uvec2(0)) outColor[0] *= sampleCubemapLike2DTexture(samplerCube(mtl.textureHandle[0]), texcoords.xy, int(mtl.emissiveColor.r), int(mtl.emissiveColor.g) );
-    if ((RenderFlags & RENDERFLAGS_TRANSPARENCY) != 0) outColor[0].rgb *= outColor[0].a;
+    outColor *= sampleCubemapLike2DTexture(tex, TexCoords.xy, int(mtl.emissiveColor.r), int(mtl.emissiveColor.g) );
+    if ((RenderFlags & RENDERFLAGS_TRANSPARENCY) != 0) outColor.rgb *= outColor.a;
+	
 }

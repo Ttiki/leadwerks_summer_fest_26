@@ -6,5 +6,4 @@ struct DrawElementsIndirectCommand
     int baseVertex;
     uint baseInstance;
     uint materialID;
-    uint alignment;
 };

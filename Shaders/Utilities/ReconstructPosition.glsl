@@ -2,7 +2,7 @@
 #define _RECONSTRUCTPOSITION
 
 #include "DepthFunctions.glsl"
-#include "../Base/CameraInfo.glsl"
+//#include "../Base/CameraInfo.glsl"
 
 vec3 ScreenCoordToWorldPosition(in vec3 position)
 {

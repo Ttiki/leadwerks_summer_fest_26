@@ -1,16 +1,36 @@
-#version 460
-#extension GL_ARB_bindless_texture : enable
+#version 450
+
+// Includes
+#include "../Common/Constants.glsl"
+#include "../Common/Uniforms.glsl"
+#include "../Common/Materials.glsl"
+
+// Samplers
+layout(binding = 0) uniform sampler2D BaseColorMap;
 
 // Inputs
-layout(location = 0) in vec4 color;
-layout(location = 1) flat in vec3 emissioncolor;
-layout(location = 2) in flat uvec4 cliprect;
+in vec4 color;
+flat in vec3 emissioncolor;
+in vec2 TexCoords;
 
 // Outputs
-layout(location = 0) out vec4 outcolor;
+out vec4 outcolor;
 
 void main()
 {
-    outcolor = vec4(1,1,1,1);
+    outcolor = color;
+	Material material = materials[ MaterialIndex[0] ];
+	outcolor *= material.diffuseColor;
+	
+    if ((TextureFlags & 1) != 0)
+    {
+        outcolor *= texture(BaseColorMap, TexCoords);
+    }
+	
+	if (outcolor.a < material.alphacutoff) discard;
+	
+    if ((RenderFlags & RENDERFLAGS_TRANSPARENCY) != 0)
+    {
+        outcolor.rgb *= outcolor.a;
+    }
 }
-

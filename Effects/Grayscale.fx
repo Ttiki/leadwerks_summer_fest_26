@@ -5,13 +5,7 @@
         [
             {    
                 "samplers": ["PREVPASS"],
-                "shader":
-                {
-                    "float32":
-                    {
-                        "fragment": "Shaders/PostEffects/Grayscale.frag"
-                    }
-                }
+                "shader": "Shaders/PostEffects/Grayscale/Grayscale.frag"
             }
         ]
     }

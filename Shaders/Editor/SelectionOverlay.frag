@@ -1,13 +1,15 @@
 #version 450
 #extension GL_ARB_separate_shader_objects : enable
 //#extension GL_EXT_multiview : enable
-#extension GL_ARB_bindless_texture : enable
+//#extension GL_ARB_bindless_texture : enable
 
 #include "../Base/Fragment.glsl"
 
 void main()
 {
-    Material mtl = materials[materialID];
+    Material mtl;
+	UnpackMaterial(MaterialIndex[0], mtl);
+	
     outColor[0] = mtl.diffuseColor * color;
 
     // Base texture color

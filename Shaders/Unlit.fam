@@ -1,73 +1,13 @@
 {
 	"shaderfamily":
 	{
-		"textures":
-		[
-			"Base"
-		],
+		"root": "./PBR.fam",
 		"shaders":
 		{
-			"opaque":
-			{
-				"default":
-				{
-					"base":
-					{
-						"vertex": "Shaders/PBR/PBR.vert",
-						"fragment": "Shaders/Unlit/Unlit.frag",
-						"fragment2": null,
-						"fragment3": null,
-						"fragment4": null,
-						"animation": "Shaders/PBR/PBR_Animated.vert",
-						"particles": "Shaders/Particles/Particles.vert"		
-					},
-					"depthPass":
-					{
-						"vertex": "Shaders/DepthPass/DepthPass.vert",
-						"animation": "Shaders/DepthPass/DepthPass_Animated.vert",
-						"particles": "Shaders/Particles/DepthPass.vert"
-					},
-					"shadow":
-					{
-						"vertex": "Shaders/Shadow/Shadow.vert",
-						"animation": "Shaders/Shadow/Shadow_Animated.vert"
-					}
-				}
-			},
-			"mask":
-			{
-				"default":
-				{
-					"base":
-					{
-						"vertex": "Shaders/PBR/PBR_Masked.vert",
-						"fragment": "Shaders/Unlit/Unlit_Masked.frag",
-						"fragment2": null,
-						"fragment3": null,
-						"fragment4": null,
-						"animation": "Shaders/PBR/PBR_Animated.vert"	
-					},
-					"depthPass":
-					{
-						"fragment": "Shaders/DepthPass/DepthPass_Masked.frag",
-						"fragment2": null,
-						"fragment3": null,
-						"fragment4": null,
-						"vertex": "Shaders/DepthPass/DepthPass_Masked.vert",
-						"animation": "Shaders/DepthPass/DepthPass_Animated.vert",
-						"particles": "Shaders/Particles/DepthPass.vert"
-					},
-					"shadow":
-					{
-						"fragment": "Shaders/Shadow/Shadow.frag",
-						"fragment2": null,
-						"fragment3": null,
-						"fragment4": null,
-						"vertex": "Shaders/Shadow/Shadow.vert",
-						"animation": "Shaders/Shadow/Shadow_Animated.vert"
-					}
-				}
-			}
-		}
+			"solid": "Shaders/Unlit/Unlit.frag",
+			"masked": "Shaders/Unlit/Unlit_Masked.frag",
+			"transparency": "Shaders/Unlit/Unlit_Transparent.frag",
+			"transparencyms": "Shaders/Unlit/Unlit_TransparentMS.frag"
+		}	
 	}
 }

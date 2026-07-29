@@ -462,8 +462,19 @@ std::shared_ptr<GameMenu> CreateGameMenu()
     menu->msaalist->AddItem("2x");
     menu->msaalist->AddItem("4x");
     menu->msaalist->AddItem("8x");
-    menu->msaalist->AddItem("16x");
-    menu->msaalist->AddItem("32x");
+    //menu->msaalist->AddItem("16x");
+    //menu->msaalist->AddItem("32x");
+    y += spacing;
+
+    // Upscaling
+    CreateLabel("Upscaling", x, y, szVideo.x - 2 * x, h, menu->videopanel, LABEL_MIDDLE);
+    menu->upscalelist = CreateComboBox(x + cw, y, szVideo.x - 2 * x - cw, 32, menu->videopanel);
+    menu->upscalelist->SetLayout(1, 1, 1, 0);
+    menu->upscalelist->AddItem("Disabled", true);
+    menu->upscalelist->AddItem("130%");
+    menu->upscalelist->AddItem("150%");
+    menu->upscalelist->AddItem("170%");
+    menu->upscalelist->AddItem("200%");
     y += spacing;
 
     // Texture Anisotropy
@@ -474,8 +485,8 @@ std::shared_ptr<GameMenu> CreateGameMenu()
     menu->anisotropylist->AddItem("2x");
     menu->anisotropylist->AddItem("4x");
     menu->anisotropylist->AddItem("8x");
-    menu->anisotropylist->AddItem("16x");
-    menu->anisotropylist->AddItem("32x");
+    //menu->anisotropylist->AddItem("16x");
+    //menu->anisotropylist->AddItem("32x");
     y += spacing;
 
     // Shadow Quality
@@ -497,19 +508,18 @@ std::shared_ptr<GameMenu> CreateGameMenu()
     menu->tessellationlist->AddItem("High");
     y += spacing;
 
+    // Screen-space Reflection
+    CreateLabel("Screen-space Reflection", x, y, szVideo.x - 2 * x, h, menu->videopanel, LABEL_MIDDLE);
+    menu->ssrbutton = CreateComboBox(x + cw, y, szVideo.x - 2 * x - cw, 32, menu->videopanel);
+    menu->ssrbutton->AddItem("Disabled", true);
+    menu->ssrbutton->AddItem("Low");
+    menu->ssrbutton->AddItem("Medium");
+    menu->ssrbutton->AddItem("High");
+    y += spacing;
+
     // Vertical Sync
     CreateLabel("Vertical Sync", x, y, szVideo.x - 2 * x, h, menu->videopanel);
     menu->vsyncbutton = CreateButton("Disabled", x + cw, y, szVideo.x - 2 * x - cw, h, menu->videopanel, BUTTON_CHECKBOX);
-    y += 32;
-
-    // Refraction
-    CreateLabel("Refraction", x, y, szVideo.x - 2 * x, lh, menu->videopanel);
-    menu->refractionbutton = CreateButton("Disabled", x + cw, y, bw, lh, menu->videopanel, BUTTON_CHECKBOX);
-    y += 32;
-
-    // Screen-space Reflection
-    CreateLabel("Screen-space Reflection", x, y, szVideo.x - 2 * x, lh, menu->videopanel);
-    menu->ssrbutton = CreateButton("Disabled", x + cw, y, bw, lh, menu->videopanel, BUTTON_CHECKBOX);
     y += 32;
 
     // Terrain Shadows
@@ -535,7 +545,6 @@ std::shared_ptr<GameMenu> CreateGameMenu()
     ListenEvent(EVENT_WIDGETACTION, menu->fullscreenbutton, GameMenu::EvaluateEvent, menu);
     ListenEvent(EVENT_WIDGETACTION, menu->ssrbutton, GameMenu::EvaluateEvent, menu);
     ListenEvent(EVENT_WIDGETACTION, menu->vsyncbutton, GameMenu::EvaluateEvent, menu);
-    ListenEvent(EVENT_WIDGETACTION, menu->refractionbutton, GameMenu::EvaluateEvent, menu);
     ListenEvent(EVENT_WIDGETACTION, menu->okbutton, GameMenu::EvaluateEvent, menu);
     ListenEvent(EVENT_WIDGETACTION, menu->cancelbutton, GameMenu::EvaluateEvent, menu);
     ListenEvent(EVENT_WIDGETACTION, menu->newgamebutton, GameMenu::EvaluateEvent, menu);
@@ -599,11 +608,10 @@ void GameMenu::UpdateSettings()
     {
         auto& video = Game::settings["video"];
 
+        if (video["upscaling"].is_number()) upscalelist->SelectItem(int(video["upscaling"]));
         if (video["vsync"].is_boolean()) vsyncbutton->SetState(video["vsync"]);
-        if (video["refraction"].is_boolean()) refractionbutton->SetState(video["refraction"]);
-        if (video["ssr"].is_boolean()) ssrbutton->SetState(video["ssr"]);
+        if (video["ssr"].is_number()) ssrbutton->SelectItem(video["ssr"]);
         if (video["terrainshadows"].is_boolean()) terrainshadowsbutton->SetState(video["terrainshadows"]);
-        if (video["refraction"].is_boolean()) refractionbutton->SetState(video["refraction"]);
         
         // Handle dpiscale
         float dpiscale = NAN;
@@ -714,16 +722,6 @@ void GameMenu::UpdateSettings()
     else
         vsyncbutton->SetText("Disabled");
 
-    if (refractionbutton->GetState() == WIDGETSTATE_SELECTED)
-        refractionbutton->SetText("Enabled");
-    else
-        refractionbutton->SetText("Disabled");
-
-    if (ssrbutton->GetState() == WIDGETSTATE_SELECTED)
-        ssrbutton->SetText("Enabled");
-    else
-        ssrbutton->SetText("Disabled");
-
     if (terrainshadowsbutton->GetState() == WIDGETSTATE_SELECTED)
         terrainshadowsbutton->SetText("Enabled");
     else
@@ -749,6 +747,9 @@ void GameMenu::ApplySettings()
         SetAnisotropicFilter(Game::settings["video"]["textureanisotropy"]);
     }
 
+    // Upscaling
+    Game::settings["video"]["upscaling"] = upscalelist->GetSelectedItem();
+
     // MSAA
     i = msaalist->GetSelectedItem();
     if (i > -1)
@@ -757,11 +758,8 @@ void GameMenu::ApplySettings()
         Game::settings["video"]["msaa"] = msaa;
     }
 
-    // Refraction
-    Game::settings["video"]["refraction"] = (refractionbutton->GetState() == WIDGETSTATE_SELECTED);
-
     // SSR
-    Game::settings["video"]["ssr"] = (ssrbutton->GetState() == WIDGETSTATE_SELECTED);
+    Game::settings["video"]["ssr"] = ssrbutton->GetSelectedItem();
 
     // Terrain shadows
     Game::settings["video"]["terrainshadows"] = (terrainshadowsbutton->GetState() == WIDGETSTATE_SELECTED);
@@ -889,6 +887,29 @@ void GameMenu::ApplyCameraSettings()
                         camera->SetMsaa(msaa);
                     }
 
+                    // Upscaling
+                    if (videoSettings["upscaling"].is_number()) {
+                        int upscaling = videoSettings["upscaling"];
+                        switch (upscaling)
+                        {
+                        case 0:
+                            camera->SetUpscaling(1.0f);
+                            break;
+                        case 1:
+                            camera->SetUpscaling(1.3f);
+                            break;
+                        case 2:
+                            camera->SetUpscaling(1.5f);
+                            break;
+                        case 3:
+                            camera->SetUpscaling(1.7f);
+                            break;
+                        case 4:
+                            camera->SetUpscaling(2.0f);
+                            break;
+                        }
+                    }
+
                     // Tessellation
                     if (videoSettings["tessellation"].is_number()) {
                         int tessValue = videoSettings["tessellation"];
@@ -913,10 +934,24 @@ void GameMenu::ApplyCameraSettings()
                     }
 
                     // SSR
-                    if (videoSettings["ssr"].is_boolean())
+                    if (videoSettings["ssr"].is_number())
                     {
-                        bool refraction = videoSettings["ssr"];
-                        camera->SetSsr(refraction);
+                        int ssr = videoSettings["ssr"];
+                        switch (ssr)
+                        {
+                        case 1:
+                            camera->SetSsr(true, 0.5f * camera->upscaling, 0.02f, 1.2f, 50, false);
+                            break;
+                        case 2:
+                            camera->SetSsr(true, 0.75f * camera->upscaling, 0.01f, 1.1f, 100, false);
+                            break;
+                        case 3:
+                            camera->SetSsr(true, 1.0f * camera->upscaling, 0.005f, 1.05f, 200, true);
+                            break;
+                        default:
+                            camera->SetSsr(false);
+                            break;
+                        }
                     }
 
                     // Post Effects

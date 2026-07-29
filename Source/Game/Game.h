@@ -6,7 +6,7 @@ using namespace Leadwerks;
 class Game : public Object
 {
 public:
-	static inline WString name = "New Project 21";
+	static inline WString name = "Totem Island";
 	static inline WString settingspath;
 	static inline std::shared_ptr<Window> window;
 	static inline std::shared_ptr<Framebuffer> framebuffer;

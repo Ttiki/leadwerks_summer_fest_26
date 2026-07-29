@@ -43,7 +43,7 @@ float random(vec2 co)
 
 uvec2 unpackUshort2x16(in uint i)
 {
-	return uvec2(i & 0x0000FFFF, (i & 0xFFFF0000) >> 16);
+	return uvec2(i & 0x0000FFFFu, (i & 0xFFFF0000u) >> 16);
 }
 
 float lengthSquared(in vec3 v)
@@ -129,6 +129,26 @@ vec3 RGBToHSL( in vec3 c ){
 		h = h / 6.0;
 	}
 	return vec3( h, s, l );
+}
+
+uint Alpha(uint rgba)
+{
+	return (rgba & 0xFF000000u) >> 24u;
+}
+
+uint Blue(uint rgba)
+{
+	return (rgba & 0x00FF0000u) >> 16u;
+}
+
+uint Green(uint rgba)
+{
+	return (rgba & 0x0000FF00u) >> 8u;
+}
+
+uint Red(uint rgba)
+{
+	return (rgba & 0x000000FFu);
 }
 
 #endif

@@ -13,6 +13,7 @@
 #include "Entities/Physics/SwingingDoor.h"
 #include "Entities/Player/CameraControls.h"
 #include "Entities/Player/FPSPlayer.h"
+#include "Entities/Player/SrcPlayer.h"
 #include "Entities/Player/VRPlayer.h"
 #include "Entities/Sound/AmbientNoise.h"
 #include "Entities/Sound/ImpactNoise.h"
@@ -33,6 +34,7 @@ void RegisterComponents()
 	RegisterComponent<SwingingDoor>();
 	RegisterComponent<CameraControls>();
 	RegisterComponent<FPSPlayer>();
+	RegisterComponent<SrcPlayer>();
 	RegisterComponent<VRPlayer>();
 	RegisterComponent<AmbientNoise>();
 	RegisterComponent<ImpactNoise>();

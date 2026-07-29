@@ -1,0 +1,12 @@
+{
+	"shaderfamily":
+	{
+		"root": "Shaders/PBR.fam",
+		"shaders":
+		{
+			"solid": "Shaders/Editor/Textured.frag",
+			"multimaterial2": "Shaders/Editor/Textured.frag",
+			"multimaterial3": "Shaders/Editor/Textured.frag"
+		}
+	}
+}

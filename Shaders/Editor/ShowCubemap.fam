@@ -1,30 +1,11 @@
 {
 	"shaderfamily":
 	{
-		"textures":
-		[
-			"Base"
-		],
-		"static":
+		"root": "Shaders/PBR.fam",
+		"shaders":
 		{
-			"float":
-			{
-				"opaque":
-				{
-					"default":
-					{
-						"base":
-						{
-							"vertex": "Shaders/PBR/PBR.vert",
-							"fragment": "Shaders/Editor/ShowCubemap.frag"
-						},
-						"depthPass":
-						{
-							"vertex": "Shaders/DepthPass/DepthPass.vert"
-						}
-					}
-				}
-			}
-		}
+			"solid": "Shaders/Editor/ShowCubemap.frag",
+			"transparency": "Shaders/Editor/ShowCubemap.frag"		
+		}	
 	}
 }

@@ -1,20 +1,19 @@
 {
 	"project":
 	{
-		"brushtexelspermeter": 400.0,
+		"brushtexelspermeter": 400,
 		"debugcommandline": "-devmode +map \"$MAPFILE\"",
-		"debugexecutable": "SummerFest_TheIsland_d.exe",
-		"embedmaterialtextures": false,
-		"engineversion": "5.0.2",
+		"debugexecutable": "Totem Island_d.exe",
+		"engineversion": "5.1.0",
 		"filetypeblacklist": "bin, meta, collider",
 		"gridbasesize": 0.16,
 		"language": "C++",
-		"majorgridlines": 8.0,
-		"name": "SummerFest_TheIsland",
-		"password": "[k!yYwWgqm$lZlh:[#i)n2BCXm[h@kaK1!6TT]%MW;hBnoB{P=>vD@vCXSL@K}*5",
+		"majorgridlines": 8,
+		"name": "Totem Island",
+		"password": "&r*m42oE|f?ZM?&?*W2EuqyBUr;AN20ErE},*+L3HL*1{lL{tpbfbE^DvFm5J)Q#",
 		"runcommandline": "-devmode +map \"$MAPFILE\"",
-		"runexecutable": "SummerFest_TheIsland.exe",
+		"runexecutable": "Totem Island.exe",
 		"template": "Common",
-		"uuid": "e69b811f-ee39-4cb5-9efe-c3b8fd19a2b2"
+		"uuid": "7305bbe6-7f23-4967-9e96-c06b63c95e88"
 	}
 }

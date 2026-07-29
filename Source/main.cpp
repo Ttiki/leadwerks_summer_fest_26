@@ -47,11 +47,9 @@ int main(int argc, const char* argv[])
     RegisterComponents();// Call this after packages are loaded
 
     auto mainmenu = CreateGameMenu();
-    mainmenu->AddPostEffect("Bloom", "Effects/Bloom.fx", true);
+    mainmenu->AddPostEffect("Bloom", "Effects/Bloom.fx");
     mainmenu->AddPostEffect("SSAO", "Effects/SSAO.fx");
-    mainmenu->AddPostEffect("Auto-exposure", "Effects/AutoExposure.fx");
-    mainmenu->AddPostEffect("Volumetric Lighting", "Effects/VolumetricLighting.fx");
-
+    
     //Load the map
     if (Game::commandline["map"].is_string())
     {
@@ -82,7 +80,7 @@ int main(int argc, const char* argv[])
             // Change the scene
             if (event.id == EVENT_CHANGELEVEL)
             {
-                WString mapfile = "Maps/start.map";
+                WString mapfile = "Maps/island.map";
                 if (not event.text.empty()) mapfile = event.text;
                 Game::scene = LoadScene(Game::world, mapfile);
                 if (Game::scene)

@@ -1,0 +1,13 @@
+{
+	"shaderfamily":
+	{
+		"root": "./PBR.fam",
+		"shaders":
+		{
+			"vertex": "Shaders/Windy/Windy.vert",
+			"shadowvertex": "Shaders/Windy/Shadow.vert",
+			"shadowvertexmasked": "Shaders/Windy/Shadow_Masked.vert",
+			"meshlayer": "Shaders/Windy/MeshLayer.vert"
+		}
+	}
+}

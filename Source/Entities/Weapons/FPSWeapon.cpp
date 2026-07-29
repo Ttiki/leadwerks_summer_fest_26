@@ -10,7 +10,7 @@ void FPSWeapon::Start()
 	auto model = entity->As<Model>();
 
 	// Right now, skip decals. Maybe we want exclusive decals on the gun in the future?
-	entity->SetDecalLayers(0, true);
+	entity->SetDecalLayers(DecalLayers(0), true);
 	entity->SetMass(0);
 	entity->SetCollider(NULL);
 	entity->SetPickMode(PICK_NONE);
@@ -105,7 +105,7 @@ void FPSWeapon::AttachToPlayer(std::shared_ptr<Component> playercomponent)
 			}
 			else
 			{*/
-				playercam->SetRange(0.001f, playercam->GetRange().y);
+				//playercam->SetRange(0.001f, playercam->GetRange().y);
 				entity->SetParent(playercam, false);
 			//}
 		}

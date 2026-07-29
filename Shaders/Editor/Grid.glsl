@@ -1,7 +1,9 @@
 #ifndef _EDITORGRID
-#define _EDITORGRID
+	#define _EDITORGRID
 
 #include "../Math/math.glsl"
+uniform float GridSize = 0.125;
+uniform int MajorGridLines = 16;
 
 //https://www.shadertoy.com/view/wl3Sz2
 float gridAASimple(vec2 p, in float gridThickness)
@@ -10,7 +12,7 @@ float gridAASimple(vec2 p, in float gridThickness)
     float g = min(min(f.x, 1.-f.x), min(f.y, 1.-f.y)) * 2. - gridThickness
     , x = step(g, 0.) //gridUnfiltered(p)
     , w = fwidth(p.x) + fwidth(p.y)
-    , r = 20.* float(BufferSize.y)
+    , r = 20.* float(DrawViewport.w)
     , l = r*abs(g) / (1. + 1.*r*w) // can try different functions, divisor controls fade rate with distance
     // up close, should blend toward 0.5, but
     // far away should blend toward gridThickness, maybe sqrt'd?
@@ -33,7 +35,7 @@ float gridAAOrigin(vec2 p, in float gridThickness)
     float g = min(min(f.x, 1.-f.x), min(f.y, 1.-f.y)) * 2. - gridThickness
     , x = step(g, 0.) //gridUnfiltered(p)
     , w = fwidth(p.x) + fwidth(p.y)
-    , r = 20.* float(BufferSize.y)
+    , r = 20.* float(DrawViewport.w)
     , l = r*abs(g) / (1. + 1.*r*w) // can try different functions, divisor controls fade rate with distance
     // up close, should blend toward 0.5, but
     // far away should blend toward gridThickness, maybe sqrt'd?
@@ -44,8 +46,8 @@ float gridAAOrigin(vec2 p, in float gridThickness)
 
 float WorldGrid(in vec3 position, in vec3 normal, in float zdistance)
 {
-    if (GridSize == 0.0f) return 0.0f;
-    const float gridThickness = max(0.0001f, pow(zdistance, 1.0f / CameraZoom) * 0.001f) / GridSize;
+	if (GridSize == 0.0f) return 0.0f;
+    const float gridThickness = max(0.0001f, pow(zdistance, 1.0f/ CameraZoom) * 0.001) / GridSize;
     vec2 gridpos;
     switch (getMajorAxis(normal))
     {
@@ -73,6 +75,15 @@ float WorldGrid(in vec2 gridpos, in float zdistance)
     float majorlines = gridAASimple(gridpos / GridSize / float(MajorGridLines), gridThickness) * 0.75f;
     float origin = gridAAOrigin(gridpos, gridThickness);
     return max(origin, max(minorlines, majorlines));
+}
+
+void ShowGrid(inout vec4 color, in vec3 position, in vec3 normal, in uint flags)
+{
+	if (MajorGridLines > 0 && (flags & ENTITYFLAGS_SHOWGRID) != 0)
+	{
+		float zdistance = (InverseCameraMatrix * vec4(position, 1.0) ).z;
+		color.rgb += WorldGrid(position.xyz, normal, zdistance);
+	}
 }
 
 #endif

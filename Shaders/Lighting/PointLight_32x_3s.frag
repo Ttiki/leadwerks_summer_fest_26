@@ -1,0 +1,5 @@
+#version 450
+#define MSAASAMPLES 32
+#define SHADOWKERNELSIZE 3
+#include "ShadowSample_32x.glsl"
+#include "PointLight.glsl"

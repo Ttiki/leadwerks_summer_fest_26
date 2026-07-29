@@ -1,68 +1,19 @@
 {
 	"shaderfamily":
-	{
+	{		
 		"root": "./PBR.fam",
 		"textures":
 		[
-			"Scroll",
-			"Animation"
+			"Surface",
+			"Foam",
+			"Bubbles",
+			"White caps"
 		],
 		"shaders":
 		{
-			"mask":
-			{
-				"default":
-				{
-					"base":
-					{
-						"fragment": "Shaders/Water/Fragment_Masked.frag",
-						"transparency": "Shaders/Water/Fragment_Masked.frag"
-					}
-				},
-				"triangles":
-				{
-					"base":
-					{
-						"fragment": "Shaders/Water/Fragment_Masked.frag",
-						"transparency": "Shaders/Water/Fragment_Masked.frag"
-					}
-				},
-				"quads":
-				{
-					"base":
-					{
-						"fragment": "Shaders/Water/Fragment_Masked.frag",
-						"transparency": "Shaders/Water/Fragment_Masked.frag"
-					}
-				}					
-			},
-			"opaque":
-			{
-				"default":
-				{
-					"base":
-					{
-						"fragment": "Shaders/Water/Fragment.frag",
-						"transparency": "Shaders/Water/Fragment.frag"
-					}
-				},		
-				"triangles":
-				{
-					"base":
-					{
-						"fragment": "Shaders/Water/Fragment.frag",
-						"transparency": "Shaders/Water/Fragment.frag"
-					}
-				},
-				"quads":
-				{
-					"base":
-					{
-						"fragment": "Shaders/Water/Fragment.frag",
-						"transparency": "Shaders/Water/Fragment.frag"
-					}
-				}
-			}
-		}			
+			"vertex": "Shaders/Water/Water.vert",
+			"transparency": "Shaders/Water/Water_Transparent.frag",
+			"transparencyms": "Shaders/Water/Water_TransparentMS.frag"
+		}
 	}
 }

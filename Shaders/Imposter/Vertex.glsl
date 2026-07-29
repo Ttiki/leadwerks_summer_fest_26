@@ -1,89 +1,66 @@
-//Uniforms
-layout(binding = 0) uniform sampler2D elevationmap;
-layout(binding = 1) uniform sampler2D normalmap;
-layout(location = 15) uniform ivec2 resolution;
-layout(location = 16) uniform vec2 spacing = vec2(2.0f);
-layout(location = 17) uniform uint offset = 0;
-layout(location = 18) uniform int alignment = 0;
+// Includes
+#include "../Common/Materials.glsl"
+#include "../Common/Vertex.glsl"
+#include "../Common/Entities.glsl"
 
-#include "../Base/Vertex.glsl"
-#include "../Base/EntityInfo.glsl"
-#include "../Base/CameraInfo.glsl"
-#include "../Base/VertexLayout.glsl"
-#include "../Base/Materials.glsl"
-#include "../Base/Lighting.glsl"
+// Outputs
+out float CameraAngle;
+out vec4 Position;
+out vec4 vertexWorldPosition;
+out vec4 TexCoords;
+out mat3 TBN;
+out vec4 color;
+out uint EntityFlags;
+out uint EntityIndex;
+out vec3 emissioncolor;
+out vec2 MaterialWeights;
+out vec3 EntityTerrainBlending;
 
-layout(location = 30) flat out vec3 suncolor;
-layout(location = 31) flat out vec3 sundirection;
-layout(location = 29) flat out float cameraangle;
- 
 void main()
 {
     vec4 p;
-    p.xyz = VertexPositionDisplacement.xyz;
+    p.xyz = VertexPosition.xyz;
     p.w = 1.0f;
-
-    mat4 mat;
-    vec4 color;
-    uint flags;
-
-    ExtractEntityInfo(EntityID, mat, color, flags, decallayers);
-
-    //vec2 d = normalize(mat[3].xz - CameraPosition.xz);
-    //d = normalize(d);
+		
+	UnpackedEntity entity;
+	UnpackEntity(EntityID, entity);
     
+	mat4 mat = entity.matrix;    
+	EntityFlags = entity.flags;
+    EntityIndex = EntityID;
+	color = entity.color;
+	emissioncolor = entity.emission;
+	MaterialWeights = vec2(0.0);
+	EntityTerrainBlending = vec3(0.0);
+	
     vec4 relcampos = inverse(mat) * vec4(CameraPosition, 1.0f);
     vec2 d = -normalize(relcampos.xz);
 
-    cameraangle = mod(degrees(atan(d.x, d.y)), 360.0f);
+    CameraAngle = mod(degrees(atan(d.x, d.y)), 360.0f);
     
     mat3 rotationmat;
     rotationmat[2].xyz = vec3(d.x, 0, d.y);
     rotationmat[1].xyz = vec3(0,1,0);
     rotationmat[0].xyz = cross(rotationmat[2].xyz, rotationmat[1].xyz);
     p.xyz = rotationmat * p.xyz;
-    //p.y += VertexTexCoords.w;
     
     p = mat * p;
-    
-    vertexWorldPosition = p;
-    flags = 0;
-
-#ifdef WRITE_COLOR
-
-    suncolor = vec3(0.0f);
-    uint lightlistpos = int(GetGlobalLightsReadPosition());
-    uint countlights = ReadLightGridValue(lightlistpos);
-    if (countlights > 0)
-    {
-        ++lightlistpos;
-        uint lightIndex = ReadLightGridValue(uint(lightlistpos));
-        mat4 lightmatrix;
-        vec4 lightcolor;
-        uint lightflags, lightdecallayers;      
-        ExtractEntityInfo(lightIndex, lightmatrix, lightcolor, lightflags, lightdecallayers);
-        suncolor = lightcolor.rgb;
-        sundirection = normalize(lightmatrix[2].xyz);
-    }
-
-    texCoords = VertexTexCoords;
-
-    #ifndef DEPTHRENDER
-    color = vec4(1.0f);
-
-    ExtractVertexNormalTangentBitangent(normal, tangent, bitangent);
-    normal = normalize(normal);
-
-    tangent = normalize(mat[0].xyz);
-    bitangent = normalize(mat[1].xyz);
-    normal = normalize(mat[2].xyz);
-
-    #endif
-
-    materialIndex = MaterialIDs;
-
-#endif
-
-    mat4 cameraProjectionMatrix = ExtractCameraProjectionMatrix(CameraID, 0);
-    gl_Position = cameraProjectionMatrix * p;
+    Position = p;
+	
+    TexCoords.xy = VertexTexCoords;
+    TexCoords.zw = VertexLightmapCoords;
+	
+	color = vec4(1.0f);
+	
+	mat3 nmat;	
+	nmat[0] = normalize(entity.matrix[0].xyz);
+	nmat[1] = normalize(entity.matrix[1].xyz);
+	nmat[2] = normalize(entity.matrix[2].xyz);	
+	//TBN[0] = normalize(nmat * VertexTangent);
+	//TBN[1] = normalize(nmat * VertexBitangent);
+	//TBN[2] = normalize(nmat * VertexNormal);	
+	TBN = nmat;
+	
+	vertexWorldPosition = Position;
+    gl_Position = CameraProjectionMatrix * p;
 }

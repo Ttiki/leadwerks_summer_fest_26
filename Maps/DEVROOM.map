@@ -47,7 +47,6 @@
 									"path": "Materials/default.mat"
 								},
 								null,
-								null,
 								null
 							],
 							"mesh": 0,
@@ -100,7 +99,6 @@
 								{
 									"path": "Materials/default.mat"
 								},
-								null,
 								null,
 								null
 							],
@@ -155,7 +153,6 @@
 									"path": "Materials/default.mat"
 								},
 								null,
-								null,
 								null
 							],
 							"mesh": 0,
@@ -208,7 +205,6 @@
 								{
 									"path": "Materials/default.mat"
 								},
-								null,
 								null,
 								null
 							],
@@ -263,7 +259,6 @@
 									"path": "Materials/default.mat"
 								},
 								null,
-								null,
 								null
 							],
 							"mesh": 0,
@@ -317,7 +312,6 @@
 									"path": "Materials/default.mat"
 								},
 								null,
-								null,
 								null
 							],
 							"mesh": 0,
@@ -339,7 +333,6 @@
 								{
 									"path": "Materials/default.mat"
 								},
-								null,
 								null,
 								null
 							],
@@ -384,7 +377,7 @@
 					"0x0",
 					"0x3f800000",
 					"0x0",
-					"0x37000000",
+					"0x0",
 					"0xbe23d70a",
 					"0x0",
 					"0x3f800000"
@@ -394,7 +387,7 @@
 				"physicsmode": 1,
 				"pickmode": 1,
 				"position": [
-					"0x37000000",
+					"0x0",
 					"0xbe23d70a",
 					"0x0"
 				],
@@ -417,7 +410,2138 @@
 					"0x3f800000"
 				],
 				"sweptcollision": false,
-				"uuid": "efb19256-e9e6-4bf4-9bb6-8e4697e9f736",
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "2878941b-4319-4c26-8079-80f41cc4ca95",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 2256,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 2264,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 2272,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 2280,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 12,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 2288,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 16,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 2296,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 20,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 24,
+							"indices": 4224,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 24,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 2304
+						}
+					],
+					"vertexcount": 8,
+					"vertices": 2160
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0xbfa3d70a",
+					"0x3da3d70a",
+					"0xbda3d70a",
+					"0x3f800000"
+				],
+				"name": "Box",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0xbfa3d70a",
+					"0x3da3d70a",
+					"0xbda3d70a"
+				],
+				"quaternion": [
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "09c722d2-985b-4887-994d-45c1f514ef6e",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 4416,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 4424,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 4432,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 4440,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 12,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 4448,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 16,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 4456,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 20,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 24,
+							"indices": 6384,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 24,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 4464
+						}
+					],
+					"vertexcount": 8,
+					"vertices": 4320
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0xc01eb852",
+					"0x3da3d70a",
+					"0xbfae1479",
+					"0x3f800000"
+				],
+				"name": "Box",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0xc01eb852",
+					"0x3da3d70a",
+					"0xbfae1479"
+				],
+				"quaternion": [
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "00b1d125-5a64-496f-aee4-d424424ea0c7",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 6576,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 6584,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 6592,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 6600,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 12,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 6608,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 16,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 6616,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 20,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 24,
+							"indices": 8544,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 24,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 6624
+						}
+					],
+					"vertexcount": 8,
+					"vertices": 6480
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0xbf999999",
+					"0x3da3d70a",
+					"0xc01eb852",
+					"0x3f800000"
+				],
+				"name": "Box",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0xbf999999",
+					"0x3da3d70a",
+					"0xc01eb852"
+				],
+				"quaternion": [
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "14bd22db-58f1-4814-ab83-fa15f568ae0b",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 8736,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 8744,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 8752,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 8760,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 12,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 8768,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 16,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 8776,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 20,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 24,
+							"indices": 10704,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 24,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 8784
+						}
+					],
+					"vertexcount": 8,
+					"vertices": 8640
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0xbda3d70a",
+					"0x3da3d70a",
+					"0xbfa3d70a",
+					"0x3f800000"
+				],
+				"name": "Box",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0xbda3d70a",
+					"0x3da3d70a",
+					"0xbfa3d70a"
+				],
+				"quaternion": [
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "c6439927-0dca-4520-8f37-a6604334a38a",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 10896,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 10904,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 10912,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 10920,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 12,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 10928,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 16,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 10936,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 20,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 24,
+							"indices": 12864,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 24,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 10944
+						}
+					],
+					"vertexcount": 8,
+					"vertices": 10800
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"components": {
+					"BlockWalk": {
+						"booleanvalue": false,
+						"debugStr": "This is a simple test",
+						"enabled": true,
+						"floatvalue": 0.0,
+						"integervalue": 0,
+						"optionvalue": 0,
+						"pathvalue": "",
+						"rgbavalue": [
+							1.0,
+							1.0,
+							1.0,
+							1.0
+						],
+						"rgbvalue": [
+							1.0,
+							1.0,
+							1.0,
+							null
+						],
+						"stringvalue": "\"\"",
+						"vec2value": [
+							0.0,
+							0.0,
+							null
+						],
+						"vec3value": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"vec4value": [
+							0.0,
+							0.0,
+							0.0,
+							0.0
+						]
+					}
+				},
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0xbfa3d70a",
+					"0x3da3d70a",
+					"0xbfa3d70a",
+					"0x3f800000"
+				],
+				"name": "Box",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0xbfa3d70a",
+					"0x3da3d70a",
+					"0xbfa3d70a"
+				],
+				"quaternion": [
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "ecaeba55-22b5-4c3e-b2fa-1d3c9ddf6179",
 				"viewrange": 0.0
 			},
 			{
@@ -469,9 +2593,9 @@
 					"0x0",
 					"0x3f800000",
 					"0x0",
-					"0x0",
-					"0x3e23d70a",
-					"0x0",
+					"0x3fa3d70a",
+					"0x3da3d70a",
+					"0x3fa3d70a",
 					"0x3f800000"
 				],
 				"name": "Pivot",
@@ -479,9 +2603,9 @@
 				"physicsmode": 0,
 				"pickmode": 0,
 				"position": [
-					"0x0",
-					"0x3e23d70a",
-					"0x0"
+					"0x3fa3d70a",
+					"0x3da3d70a",
+					"0x3fa3d70a"
 				],
 				"quaternion": [
 					"0x0",
@@ -502,12 +2626,345 @@
 					"0x3f800000"
 				],
 				"sweptcollision": false,
-				"uuid": "0454d030-c086-40e4-86ac-fe23672b343b",
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "f1e6b1c2-3b52-4067-be4a-2dcddedca28d",
 				"viewrange": 0.0
 			},
 			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 13032,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								1.8125,
+								0.9999997615814209
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 13040,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-1.8125,
+								1.862645149230957e-07
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 13046,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								1.8125,
+								1.862645149230957e-07
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 3,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 13052,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.9999997615814209,
+								1.862645149230957e-07
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 13060,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-1.8125,
+								0.9999997615814209
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 12,
+							"indices": 14028,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 12,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 13068
+						},
+						{
+							"indicecount": 6,
+							"indices": 14556,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 3,
+							"vertexcount": 6,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 14076
+						}
+					],
+					"vertexcount": 6,
+					"vertices": 12960
+				},
 				"castshadows": true,
-				"collisiontype": 1,
+				"collisiontype": 2,
 				"damping": [
 					0.10000000149011612,
 					0.10000000149011612
@@ -519,50 +2976,49 @@
 					0.8999999761581421
 				],
 				"gravity": true,
+				"group": [
+					"Brushes"
+				],
 				"mass": 0.0,
 				"matrix": [
-					"0x3f800000",
+					"0xbf3504f6",
+					"0xbf3504f4",
+					"0x0",
+					"0x0",
+					"0x3f3504f4",
+					"0xbf3504f6",
 					"0x0",
 					"0x0",
 					"0x0",
 					"0x0",
 					"0x3f800000",
 					"0x0",
-					"0x0",
-					"0x0",
-					"0x0",
-					"0x3f800000",
-					"0x0",
-					"0x40ae147b",
-					"0x0",
-					"0x40ae147b",
+					"0xc0ab851f",
+					"0xbf01e850",
+					"0x3fa3d706",
 					"0x3f800000"
 				],
-				"model": {
-					"islimb": false,
-					"path": "Models/Vegetation/alocasia_macrorrhiza1_LOD1.mdl"
-				},
-				"name": "alocasia_macrorrhiza1_LOD1",
+				"name": "Wedge",
 				"navobstacle": true,
 				"physicsmode": 1,
 				"pickmode": 1,
 				"position": [
-					"0x40ae147b",
-					"0x0",
-					"0x40ae147b"
+					"0xc0ab851f",
+					"0xbf01e850",
+					"0x3fa3d706"
 				],
 				"quaternion": [
 					"0x80000000",
 					"0x80000000",
-					"0x80000000",
-					"0x3f800000"
+					"0xbf6c835f",
+					"0xbec3ef16"
 				],
 				"reflection": true,
 				"renderlayers": 1,
 				"rotation": [
 					"0x80000000",
-					"0x0",
-					"0x0"
+					"0x80000000",
+					"0xc3070000"
 				],
 				"scale": [
 					"0x3f800000",
@@ -570,7 +3026,4424 @@
 					"0x3f800000"
 				],
 				"sweptcollision": false,
-				"uuid": "deb22c9e-56af-4161-ae4e-87fe128c7795",
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "72fa855f-e10a-40f0-a007-5e6288c06574",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 14652,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.3749999403953552,
+								-1.1875
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 14660,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.3749999403953552,
+								-0.7500001788139343
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 14666,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.3749999403953552,
+								-0.7500001788139343
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 3,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 14672,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								1.1875,
+								-0.7500001788139343
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 14680,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.3749999403953552,
+								-1.1875
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 12,
+							"indices": 15648,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 12,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 14688
+						},
+						{
+							"indicecount": 6,
+							"indices": 16176,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 3,
+							"vertexcount": 6,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 15696
+						}
+					],
+					"vertexcount": 6,
+					"vertices": 14580
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0xbf3504f6",
+					"0xbf3504f4",
+					"0x0",
+					"0x0",
+					"0x3f3504f4",
+					"0xbf3504f6",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x3fcccccc",
+					"0xbfa3d70e",
+					"0xc08a3d70",
+					"0x3f800000"
+				],
+				"name": "Wedge",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0x3fcccccc",
+					"0xbfa3d70e",
+					"0xc08a3d70"
+				],
+				"quaternion": [
+					"0x80000000",
+					"0x80000000",
+					"0xbf6c835f",
+					"0xbec3ef16"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x80000000",
+					"0x80000000",
+					"0xc3070000"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "499243d7-9b47-4b35-99b1-a94d473ec08b",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 16272,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.3750001788139343,
+								-2.437499761581421
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 16280,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.3750001788139343,
+								-1.3750001192092896
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 16286,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.3750001788139343,
+								-1.3750001192092896
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 3,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 16292,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								2.437499761581421,
+								-1.3750001192092896
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 16300,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.3750001788139343,
+								-2.437499761581421
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 12,
+							"indices": 17268,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 12,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 16308
+						},
+						{
+							"indicecount": 6,
+							"indices": 17796,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 3,
+							"vertexcount": 6,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 17316
+						}
+					],
+					"vertexcount": 6,
+					"vertices": 16200
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0xbf3504f6",
+					"0xbf3504f4",
+					"0x0",
+					"0x0",
+					"0x3f3504f4",
+					"0xbf3504f6",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x3fccccd1",
+					"0xc03851ed",
+					"0xc0f0a3d5",
+					"0x3f800000"
+				],
+				"name": "Wedge",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0x3fccccd1",
+					"0xc03851ed",
+					"0xc0f0a3d5"
+				],
+				"quaternion": [
+					"0x80000000",
+					"0x80000000",
+					"0xbf6c835f",
+					"0xbec3ef16"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x80000000",
+					"0x80000000",
+					"0xc3070000"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "46ef2ba2-f970-4076-8975-f5bb672c1eb6",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 17892,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.37500035762786865,
+								-3.624999523162842
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 17900,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.37500035762786865,
+								-1.6875001192092896
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 17906,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.37500035762786865,
+								-1.6875001192092896
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 3,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 17912,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								3.624999523162842,
+								-1.6875001192092896
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 17920,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.37500035762786865,
+								-3.624999523162842
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 12,
+							"indices": 18888,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 12,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 17928
+						},
+						{
+							"indicecount": 6,
+							"indices": 19416,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 3,
+							"vertexcount": 6,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 18936
+						}
+					],
+					"vertexcount": 6,
+					"vertices": 17820
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0xbf3504f6",
+					"0xbf3504f4",
+					"0x0",
+					"0x0",
+					"0x3f3504f4",
+					"0xbf3504f6",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x3fccccd5",
+					"0xc06b8520",
+					"0xc128f5c1",
+					"0x3f800000"
+				],
+				"name": "Wedge",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0x3fccccd5",
+					"0xc06b8520",
+					"0xc128f5c1"
+				],
+				"quaternion": [
+					"0x80000000",
+					"0x80000000",
+					"0xbf6c835f",
+					"0xbec3ef16"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x80000000",
+					"0x80000000",
+					"0xc3070000"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "f0979f53-ce66-4c19-ae49-fe5ccf53332d",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 19512,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.625,
+								-1.1875
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 19520,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.625,
+								-0.7500002384185791
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 19526,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.625,
+								-0.7500002384185791
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 3,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 19532,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								1.1875,
+								-0.7500002384185791
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 19540,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.625,
+								-1.1875
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 12,
+							"indices": 20508,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 12,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 19548
+						},
+						{
+							"indicecount": 6,
+							"indices": 21036,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 3,
+							"vertexcount": 6,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 20556
+						}
+					],
+					"vertexcount": 6,
+					"vertices": 19440
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0xbf3504f6",
+					"0xbf3504f4",
+					"0x0",
+					"0x0",
+					"0x3f3504f4",
+					"0xbf3504f6",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0xbf75c290",
+					"0xbf92dfb7",
+					"0xc08a3d70",
+					"0x3f800000"
+				],
+				"name": "Wedge",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0xbf75c290",
+					"0xbf92dfb7",
+					"0xc08a3d70"
+				],
+				"quaternion": [
+					"0x80000000",
+					"0x80000000",
+					"0xbf6c835f",
+					"0xbec3ef16"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x80000000",
+					"0x80000000",
+					"0xc3070000"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "2b813896-d7e1-4e55-a812-df59e9edea7e",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 21132,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.6249997615814209,
+								-1.8125
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 21140,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.6249997615814209,
+								-1.375000238418579
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 21146,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.6249997615814209,
+								-1.375000238418579
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 3,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 21152,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								2.437499761581421,
+								-1.375000238418579
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 21160,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.6249997615814209,
+								-2.437499761581421
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 12,
+							"indices": 22128,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 12,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 21168
+						},
+						{
+							"indicecount": 6,
+							"indices": 22656,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 3,
+							"vertexcount": 6,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 22176
+						}
+					],
+					"vertexcount": 6,
+					"vertices": 21060
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0xbf3504f6",
+					"0xbf3504f4",
+					"0x0",
+					"0x0",
+					"0x3f3504f4",
+					"0xbf3504f6",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0xbf75c286",
+					"0xc02fd642",
+					"0xc0f0a3d5",
+					"0x3f800000"
+				],
+				"name": "Wedge",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0xbf75c286",
+					"0xc02fd642",
+					"0xc0f0a3d5"
+				],
+				"quaternion": [
+					"0x80000000",
+					"0x80000000",
+					"0xbf6c835f",
+					"0xbec3ef16"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x80000000",
+					"0x80000000",
+					"0xc3070000"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "fc86ebf6-9183-4787-b51a-5baf34ed2866",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 22752,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-1.8124995231628418,
+								-2.125
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 22760,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.6249995231628418,
+								-1.687500238418579
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 22766,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.6249995231628418,
+								-1.687500238418579
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 3,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 22772,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								3.624999523162842,
+								-1.687500238418579
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 22780,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.6249995231628418,
+								-3.624999523162842
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 12,
+							"indices": 23748,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 12,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 22788
+						},
+						{
+							"indicecount": 6,
+							"indices": 24276,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 3,
+							"vertexcount": 6,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 23796
+						}
+					],
+					"vertexcount": 6,
+					"vertices": 22680
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0xbf3504f6",
+					"0xbf3504f4",
+					"0x0",
+					"0x0",
+					"0x3f3504f4",
+					"0xbf3504f6",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0xbf75c27d",
+					"0xc0630975",
+					"0xc128f5c1",
+					"0x3f800000"
+				],
+				"name": "Wedge",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0xbf75c27d",
+					"0xc0630975",
+					"0xc128f5c1"
+				],
+				"quaternion": [
+					"0x80000000",
+					"0x80000000",
+					"0xbf6c835f",
+					"0xbec3ef16"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x80000000",
+					"0x80000000",
+					"0xc3070000"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "401cb179-e487-494a-9197-39a2d78b2d79",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 24372,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-2.9999990463256836,
+								-2.1875
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 24380,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.6249993443489075,
+								-1.750000238418579
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 24386,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.6249993443489075,
+								-1.750000238418579
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 3,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 24392,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								4.812499046325684,
+								-1.750000238418579
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 24400,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.6249993443489075,
+								-4.812499046325684
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 12,
+							"indices": 25368,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 12,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 24408
+						},
+						{
+							"indicecount": 6,
+							"indices": 25896,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 3,
+							"vertexcount": 6,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 25416
+						}
+					],
+					"vertexcount": 6,
+					"vertices": 24300
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0xbf3504f6",
+					"0xbf3504f4",
+					"0x0",
+					"0x0",
+					"0x3f3504f4",
+					"0xbf3504f6",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0xbf75c274",
+					"0xc06d46e6",
+					"0xc1599997",
+					"0x3f800000"
+				],
+				"name": "Wedge",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0xbf75c274",
+					"0xc06d46e6",
+					"0xc1599997"
+				],
+				"quaternion": [
+					"0x80000000",
+					"0x80000000",
+					"0xbf6c835f",
+					"0xbec3ef16"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x80000000",
+					"0x80000000",
+					"0xc3070000"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "5816a5d5-3a3d-4a2f-b327-7e8035405d18",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 25992,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-4.249999046325684,
+								-2.8125
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 26000,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.6249991059303284,
+								-2.375000238418579
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 26006,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.6249991059303284,
+								-2.375000238418579
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 3,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 26012,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								6.062499046325684,
+								-2.375000238418579
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 26020,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.6249991059303284,
+								-6.062499046325684
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 12,
+							"indices": 26988,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 12,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 26028
+						},
+						{
+							"indicecount": 6,
+							"indices": 27516,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 3,
+							"vertexcount": 6,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 27036
+						}
+					],
+					"vertexcount": 6,
+					"vertices": 25920
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0xbf3504f6",
+					"0xbf3504f4",
+					"0x0",
+					"0x0",
+					"0x3f3504f4",
+					"0xbf3504f6",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0xbf75c26a",
+					"0xc0a9d6a6",
+					"0xc1866665",
+					"0x3f800000"
+				],
+				"name": "Wedge",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0xbf75c26a",
+					"0xc0a9d6a6",
+					"0xc1866665"
+				],
+				"quaternion": [
+					"0x80000000",
+					"0x80000000",
+					"0xbf6c835f",
+					"0xbec3ef16"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x80000000",
+					"0x80000000",
+					"0xc3070000"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "5300a7b6-a1ca-4322-bb32-d107daed7307",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 27612,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-5.437498569488525,
+								-3.125
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 27620,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.6249988675117493,
+								-2.687500476837158
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 27626,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.6249988675117493,
+								-2.687500476837158
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 3,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 27632,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								7.249998569488525,
+								-2.687500476837158
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 27640,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.6249988675117493,
+								-7.249998569488525
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 12,
+							"indices": 28608,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 12,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 27648
+						},
+						{
+							"indicecount": 6,
+							"indices": 29136,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 3,
+							"vertexcount": 6,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 28656
+						}
+					],
+					"vertexcount": 6,
+					"vertices": 27540
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0xbf3504f6",
+					"0xbf3504f4",
+					"0x0",
+					"0x0",
+					"0x3f3504f4",
+					"0xbf3504f6",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0xbf75c261",
+					"0xc0c37040",
+					"0xc19eb850",
+					"0x3f800000"
+				],
+				"name": "Wedge",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0xbf75c261",
+					"0xc0c37040",
+					"0xc19eb850"
+				],
+				"quaternion": [
+					"0x80000000",
+					"0x80000000",
+					"0xbf6c835f",
+					"0xbec3ef16"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x80000000",
+					"0x80000000",
+					"0xc3070000"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "6fbe5942-fa77-4178-9a95-2c38b2991369",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 29232,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.3125,
+								2.124999523162842
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 29240,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.3125,
+								-0.6249995231628418
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 29246,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.3125,
+								-0.6249995231628418
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 3,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 29252,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-2.124999523162842,
+								-0.6249995231628418
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 29260,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.3125,
+								2.124999523162842
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 12,
+							"indices": 30228,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 12,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 29268
+						},
+						{
+							"indicecount": 6,
+							"indices": 30756,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 3,
+							"vertexcount": 6,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 30276
+						}
+					],
+					"vertexcount": 6,
+					"vertices": 29160
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0xbf3504f6",
+					"0xbf3504f4",
+					"0x0",
+					"0x0",
+					"0x3f3504f4",
+					"0xbf3504f6",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x3da3d700",
+					"0xc006e078",
+					"0x40851eb6",
+					"0x3f800000"
+				],
+				"name": "Wedge",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0x3da3d700",
+					"0xc006e078",
+					"0x40851eb6"
+				],
+				"quaternion": [
+					"0x80000000",
+					"0x80000000",
+					"0xbf6c835f",
+					"0xbec3ef16"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x80000000",
+					"0x80000000",
+					"0xc3070000"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "d186eddb-565b-4194-b2ea-41dbb7afcdf6",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 30852,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								5.499999046325684,
+								0.1874995231628418
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 30860,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.31249895691871643,
+								-2.562499523162842
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 3,
+							"indices": 30866,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-0.31249895691871643,
+								-2.562499523162842
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 1,
+							"meshvertexcount": 3,
+							"meshvertexstart": 3,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 30872,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								-7.937498092651367,
+								-2.562499523162842
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 30880,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.31249895691871643,
+								7.937498092651367
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 12,
+							"indices": 31848,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 12,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 30888
+						},
+						{
+							"indicecount": 6,
+							"indices": 32376,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/default.mat"
+								},
+								null,
+								null
+							],
+							"mode": 3,
+							"vertexcount": 6,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 31896
+						}
+					],
+					"vertexcount": 6,
+					"vertices": 30780
+				},
+				"castshadows": true,
+				"collisiontype": 2,
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0xbf3504f6",
+					"0xbf3504f4",
+					"0x0",
+					"0x0",
+					"0x3f3504f4",
+					"0xbf3504f6",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x3da3d59b",
+					"0xc0e2288e",
+					"0x419851ea",
+					"0x3f800000"
+				],
+				"name": "Wedge",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0x3da3d59b",
+					"0xc0e2288e",
+					"0x419851ea"
+				],
+				"quaternion": [
+					"0x80000000",
+					"0x80000000",
+					"0xbf6c835f",
+					"0xbec3ef16"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x80000000",
+					"0x80000000",
+					"0xc3070000"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "bf99c392-67f6-4f92-9241-a8651f10b288",
 				"viewrange": 0.0
 			},
 			{
@@ -589,10 +7462,10 @@
 				"decallayers": 1,
 				"directionallight": {
 					"cascadedistance": [
-						4.0,
-						8.0,
-						16.0,
-						32.0
+						10.0,
+						20.0,
+						40.0,
+						80.0
 					],
 					"range": [
 						-500.0,
@@ -651,7 +7524,13 @@
 					"0x3f800000"
 				],
 				"sweptcollision": false,
-				"uuid": "56b87c8f-b06e-4d5d-b89e-27c26ea0b04e",
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "8669b014-9025-44e8-85ac-22a6b0721eb6",
 				"viewrange": 0.0
 			}
 		],
@@ -681,6 +7560,10 @@
 			],
 			"gitransmission": 2.0,
 			"iblintensity": 0.5,
+			"skybox": {
+				"path": "Materials/Environment/Default/skybox.dds"
+			},
+			"skyintensity": 1.0,
 			"specularreflection": {
 				"path": "Materials/Environment/Default/specular.dds"
 			},
@@ -692,19 +7575,20 @@
 				0.0,
 				0.0,
 				0.0
-			]
+			],
+			"tonemappingmode": 0
 		},
 		"extras": {
 			"viewports": [
 				{
 					"cameraposition": [
-						11.6049,
-						6.04638,
-						-8.93854
+						-1.52459,
+						0.571536,
+						-2.97724
 					],
 					"camerarotation": [
-						19.2476,
-						310.039,
+						-5.99609,
+						329.124,
 						0.0
 					],
 					"gridsize": 0,
@@ -713,23 +7597,23 @@
 				},
 				{
 					"cameraposition": [
-						-120.968,
-						-6.68071e-06,
-						-37.3613
+						-0.0904847,
+						1.3128e-06,
+						7.34169
 					],
 					"camerarotation": [
 						90.0,
 						0.0,
 						0.0
 					],
-					"gridsize": 6,
+					"gridsize": 0,
 					"view": 3,
-					"zoom": 0.754746
+					"zoom": 60.0
 				},
 				{
 					"cameraposition": [
-						0.102286,
-						-0.0205641,
+						-2.36095,
+						-1.71531,
 						0.0
 					],
 					"camerarotation": [
@@ -739,13 +7623,13 @@
 					],
 					"gridsize": 0,
 					"view": 5,
-					"zoom": 60.0
+					"zoom": 28.9352
 				},
 				{
 					"cameraposition": [
-						0.0,
-						0.0,
-						0.0
+						-5.52132e-06,
+						-8.69904,
+						30.8775
 					],
 					"camerarotation": [
 						0.0,
@@ -754,80 +7638,819 @@
 					],
 					"gridsize": 0,
 					"view": 1,
-					"zoom": 60.0
+					"zoom": 13.9541
 				}
 			]
 		},
 		"groups": [
 			{
-				"id": "2390929849984",
+				"id": "1999645360",
 				"name": "Brushes"
 			},
 			{
-				"id": "2390929842240",
+				"id": "1999662784",
 				"name": "Entities"
 			},
 			{
-				"id": "2390929865472",
+				"id": "1999647296",
 				"name": "Models"
 			}
 		]
 	}
-} ÷(œB
-×#>ö(œB÷(œÂ
-×#>ö(œB÷(œÂ
-×#>ö(œÂ÷(œB
-×#>ö(œÂ÷(œB
-×#¾ö(œB÷(œÂ
-×#¾ö(œB÷(œÂ
-×#¾ö(œÂ÷(œB
-×#¾ö(œÂ                           ÷(œB
-×#>ö(œÂ      €?     ôA  ôA  €?   €   €   €   €  €¿                    
-×#@÷(œÂ
-×#>ö(œÂ      €?      ôÁ  ôA  €?   €   €   €   €  €¿                    
-×#@÷(œB
-×#>ö(œB      €?     ôA  ôÁ  €?   €   €   €   €  €¿                    
-×#@÷(œÂ
-×#>ö(œB      €?      ôÁ  ôÁ  €?   €   €   €   €  €¿                    
-×#@÷(œB
-×#¾ö(œB      €¿     ôÁ  ôÁ  €¿           €   €  €¿                    
-×#@÷(œÂ
-×#¾ö(œB      €¿      ôA  ôÁ  €¿           €   €  €¿                    
-×#@÷(œB
-×#¾ö(œÂ      €¿     ôÁ  ôA  €¿           €   €  €¿                    
-×#@÷(œÂ
-×#¾ö(œÂ      €¿      ôA  ôA  €¿           €   €  €¿                    
-×#@÷(œB
-×#>ö(œB   €      €? ôÁ      €¿           €  €¿   €                    
-×#@÷(œÂ
-×#>ö(œB   €      €?  ôA      €¿           €  €¿   €                    
-×#@÷(œB
-×#¾ö(œB   €      €? ôÁ   >  €¿           €  €¿   €                    
-×#@÷(œÂ
-×#¾ö(œB   €      €?  ôA   >  €¿           €  €¿   €                    
-×#@÷(œÂ
-×#>ö(œÂ   €   €  €¿  ôÁ      €?           €  €¿   €                    
-×#@÷(œB
-×#>ö(œÂ   €   €  €¿ ôA      €?           €  €¿   €                    
-×#@÷(œÂ
-×#¾ö(œÂ   €   €  €¿  ôÁ   >  €?           €  €¿   €                    
-×#@÷(œB
-×#¾ö(œÂ   €   €  €¿ ôA   >  €?           €  €¿   €                    
-×#@÷(œÂ
-×#>ö(œB  €¿          ôÁ              €¿   €  €¿   €                    
-×#@÷(œÂ
-×#>ö(œÂ  €¿          ôA              €¿   €  €¿   €                    
-×#@÷(œÂ
-×#¾ö(œB  €¿          ôÁ   >          €¿   €  €¿   €                    
-×#@÷(œÂ
-×#¾ö(œÂ  €¿          ôA   >          €¿   €  €¿   €                    
-×#@÷(œB
-×#¾ö(œB  €?          ôA   >   €   €  €?   €  €¿   €                    
-×#@÷(œB
-×#¾ö(œÂ  €?          ôÁ   >   €   €  €?   €  €¿   €                    
-×#@÷(œB
-×#>ö(œB  €?          ôA       €   €  €?   €  €¿   €                    
-×#@÷(œB
-×#>ö(œÂ  €?          ôÁ       €   €  €?   €  €¿   €                    
+} 
+×#@
+×#>
+×#@
+×#À
+×#>
+×#@
+×#À
+×#>
+×#À
+×#@
+×#>
+×#À
+×#@
+×#¾
+×#@
+×#À
+×#¾
+×#@
+×#À
+×#¾
+×#À
+×#@
+×#¾
+×#À                           
+×#@
+×#>
+×#À      €?      €?  €?  €?   €   €   €   €  €¿                    
+×#@
+×#À
+×#>
+×#À      €?      €¿  €?  €?   €   €   €   €  €¿                    
+×#@
+×#@
+×#>
+×#@      €?      €?  €¿  €?   €   €   €   €  €¿                    
+×#@
+×#À
+×#>
+×#@      €?      €¿  €¿  €?   €   €   €   €  €¿                    
+×#@
+×#@
+×#¾
+×#@      €¿      €¿  €¿  €¿           €   €  €¿                    
+×#@
+×#À
+×#¾
+×#@      €¿      €?  €¿  €¿           €   €  €¿                    
+×#@
+×#@
+×#¾
+×#À      €¿      €¿  €?  €¿           €   €  €¿                    
+×#@
+×#À
+×#¾
+×#À      €¿      €?  €?  €¿           €   €  €¿                    
+×#@
+×#@
+×#>
+×#@   €      €?  €¿      €¿           €  €¿   €                    
+×#@
+×#À
+×#>
+×#@   €      €?  €?      €¿           €  €¿   €                    
+×#@
+×#@
+×#¾
+×#@   €      €?  €¿   >  €¿           €  €¿   €                    
+×#@
+×#À
+×#¾
+×#@   €      €?  €?   >  €¿           €  €¿   €                    
+×#@
+×#À
+×#>
+×#À   €   €  €¿  €¿      €?           €  €¿   €                    
+×#@
+×#@
+×#>
+×#À   €   €  €¿  €?      €?           €  €¿   €                    
+×#@
+×#À
+×#¾
+×#À   €   €  €¿  €¿   >  €?           €  €¿   €                    
+×#@
+×#@
+×#¾
+×#À   €   €  €¿  €?   >  €?           €  €¿   €                    
+×#@
+×#À
+×#>
+×#@  €¿          €¿              €¿   €  €¿   €                    
+×#@
+×#À
+×#>
+×#À  €¿          €?              €¿   €  €¿   €                    
+×#@
+×#À
+×#¾
+×#@  €¿          €¿   >          €¿   €  €¿   €                    
+×#@
+×#À
+×#¾
+×#À  €¿          €?   >          €¿   €  €¿   €                    
+×#@
+×#@
+×#¾
+×#@  €?          €?   >   €   €  €?   €  €¿   €                    
+×#@
+×#@
+×#¾
+×#À  €?          €¿   >   €   €  €?   €  €¿   €                    
+×#@
+×#@
+×#>
+×#@  €?          €?       €   €  €?   €  €¿   €                    
+×#@
+×#@
+×#>
+×#À  €?          €¿       €   €  €?   €  €¿   €                    
 ×#@                         
       	                                          
+×£?
+×£=
+×£=
+×£¿
+×£=
+×£=
+×£¿
+×£=
+×£½
+×£?
+×£=
+×£½
+×£?
+×£½
+×£=
+×£¿
+×£½
+×£=
+×£¿
+×£½
+×£½
+×£?
+×£½
+×£½                           
+×£?
+×£=
+×£½      €?          €=  €?   €   €   €   €  €¿                    
+×#@
+×£¿
+×£=
+×£½      €?      €¿  €=  €?   €   €   €   €  €¿                    
+×#@
+×£?
+×£=
+×£=      €?              €?   €   €   €   €  €¿                    
+×#@
+×£¿
+×£=
+×£=      €?      €¿      €?   €   €   €   €  €¿                    
+×#@
+×£?
+×£½
+×£=      €¿              €¿           €   €  €¿                    
+×#@
+×£¿
+×£½
+×£=      €¿      €?      €¿           €   €  €¿                    
+×#@
+×£?
+×£½
+×£½      €¿          €=  €¿           €   €  €¿                    
+×#@
+×£¿
+×£½
+×£½      €¿      €?  €=  €¿           €   €  €¿                    
+×#@
+×£?
+×£=
+×£=   €      €?      €½  €¿           €  €¿   €                    
+×#@
+×£¿
+×£=
+×£=   €      €?  €?  €½  €¿           €  €¿   €                    
+×#@
+×£?
+×£½
+×£=   €      €?          €¿           €  €¿   €                    
+×#@
+×£¿
+×£½
+×£=   €      €?  €?      €¿           €  €¿   €                    
+×#@
+×£¿
+×£=
+×£½   €   €  €¿  €¿  €½  €?           €  €¿   €                    
+×#@
+×£?
+×£=
+×£½   €   €  €¿      €½  €?           €  €¿   €                    
+×#@
+×£¿
+×£½
+×£½   €   €  €¿  €¿      €?           €  €¿   €                    
+×#@
+×£?
+×£½
+×£½   €   €  €¿          €?           €  €¿   €                    
+×#@
+×£¿
+×£=
+×£=  €¿              €½          €¿   €  €¿   €                    
+×#@
+×£¿
+×£=
+×£½  €¿          €=  €½          €¿   €  €¿   €                    
+×#@
+×£¿
+×£½
+×£=  €¿                          €¿   €  €¿   €                    
+×#@
+×£¿
+×£½
+×£½  €¿          €=              €¿   €  €¿   €                    
+×#@
+×£?
+×£½
+×£=  €?                   €   €  €?   €  €¿   €                    
+×#@
+×£?
+×£½
+×£½  €?          €½       €   €  €?   €  €¿   €                    
+×#@
+×£?
+×£=
+×£=  €?              €½   €   €  €?   €  €¿   €                    
+×#@
+×£?
+×£=
+×£½  €?          €½  €½   €   €  €?   €  €¿   €                    
+×#@                         
+      	                                          ×£=
+×£=™™™?×£½
+×£=™™™?×£½
+×£=™™™¿×£=
+×£=™™™¿×£=
+×£½™™™?×£½
+×£½™™™?×£½
+×£½™™™¿×£=
+×£½™™™¿                           ×£=
+×£=™™™¿      €?     p¿þÿ?  €?   €   €   €   €  €¿                    
+×#@×£½
+×£=™™™¿      €?      €¿þÿ?  €?   €   €   €   €  €¿                    
+×#@×£=
+×£=™™™?      €?     p¿ðÿ=  €?   €   €   €   €  €¿                    
+×#@×£½
+×£=™™™?      €?      €¿ðÿ=  €?   €   €   €   €  €¿                    
+×#@×£=
+×£½™™™?      €¿     p?ðÿ=  €¿           €   €  €¿                    
+×#@×£½
+×£½™™™?      €¿      €?ðÿ=  €¿           €   €  €¿                    
+×#@×£=
+×£½™™™¿      €¿     p?þÿ?  €¿           €   €  €¿                    
+×#@×£½
+×£½™™™¿      €¿      €?þÿ?  €¿           €   €  €¿                    
+×#@×£=
+×£=™™™?   €      €? p?  €½  €¿           €  €¿   €                    
+×#@×£½
+×£=™™™?   €      €?  €?  €½  €¿           €  €¿   €                    
+×#@×£=
+×£½™™™?   €      €? p?      €¿           €  €¿   €                    
+×#@×£½
+×£½™™™?   €      €?  €?      €¿           €  €¿   €                    
+×#@×£½
+×£=™™™¿   €   €  €¿  €¿  €½  €?           €  €¿   €                    
+×#@×£=
+×£=™™™¿   €   €  €¿ p¿  €½  €?           €  €¿   €                    
+×#@×£½
+×£½™™™¿   €   €  €¿  €¿      €?           €  €¿   €                    
+×#@×£=
+×£½™™™¿   €   €  €¿ p¿      €?           €  €¿   €                    
+×#@×£½
+×£=™™™?  €¿        ðÿ=  €½          €¿   €  €¿   €                    
+×#@×£½
+×£=™™™¿  €¿        þÿ?  €½          €¿   €  €¿   €                    
+×#@×£½
+×£½™™™?  €¿        ðÿ=              €¿   €  €¿   €                    
+×#@×£½
+×£½™™™¿  €¿        þÿ?              €¿   €  €¿   €                    
+×#@×£=
+×£½™™™?  €?        ðÿ½       €   €  €?   €  €¿   €                    
+×#@×£=
+×£½™™™¿  €?        þÿ¿       €   €  €?   €  €¿   €                    
+×#@×£=
+×£=™™™?  €?        ðÿ½  €½   €   €  €?   €  €¿   €                    
+×#@×£=
+×£=™™™¿  €?        þÿ¿  €½   €   €  €?   €  €¿   €                    
+×#@                         
+      	                                          ™™™?
+×£=×£=™™™¿
+×£=×£=™™™¿
+×£=×£½™™™?
+×£=×£½™™™?
+×£½×£=™™™¿
+×£½×£=™™™¿
+×£½×£½™™™?
+×£½×£½                           ™™™?
+×£=×£½      €?          €?  €?   €   €   €   €  €¿                    
+×#@™™™¿
+×£=×£½      €?    ÿÿo¿  €?  €?   €   €   €   €  €¿                    
+×#@™™™?
+×£=×£=      €?         p?  €?   €   €   €   €  €¿                    
+×#@™™™¿
+×£=×£=      €?    ÿÿo¿ p?  €?   €   €   €   €  €¿                    
+×#@™™™?
+×£½×£=      €¿         p?  €¿           €   €  €¿                    
+×#@™™™¿
+×£½×£=      €¿    ÿÿo? p?  €¿           €   €  €¿                    
+×#@™™™?
+×£½×£½      €¿          €?  €¿           €   €  €¿                    
+×#@™™™¿
+×£½×£½      €¿    ÿÿo?  €?  €¿           €   €  €¿                    
+×#@™™™?
+×£=×£=   €      €?      €½  €¿           €  €¿   €                    
+×#@™™™¿
+×£=×£=   €      €?ÿÿo?  €½  €¿           €  €¿   €                    
+×#@™™™?
+×£½×£=   €      €?          €¿           €  €¿   €                    
+×#@™™™¿
+×£½×£=   €      €?ÿÿo?      €¿           €  €¿   €                    
+×#@™™™¿
+×£=×£½   €   €  €¿ÿÿo¿  €½  €?           €  €¿   €                    
+×#@™™™?
+×£=×£½   €   €  €¿      €½  €?           €  €¿   €                    
+×#@™™™¿
+×£½×£½   €   €  €¿ÿÿo¿      €?           €  €¿   €                    
+×#@™™™?
+×£½×£½   €   €  €¿          €?           €  €¿   €                    
+×#@™™™¿
+×£=×£=  €¿         p?  €½          €¿   €  €¿   €                    
+×#@™™™¿
+×£=×£½  €¿          €?  €½          €¿   €  €¿   €                    
+×#@™™™¿
+×£½×£=  €¿         p?              €¿   €  €¿   €                    
+×#@™™™¿
+×£½×£½  €¿          €?              €¿   €  €¿   €                    
+×#@™™™?
+×£½×£=  €?         p¿       €   €  €?   €  €¿   €                    
+×#@™™™?
+×£½×£½  €?          €¿       €   €  €?   €  €¿   €                    
+×#@™™™?
+×£=×£=  €?         p¿  €½   €   €  €?   €  €¿   €                    
+×#@™™™?
+×£=×£½  €?          €¿  €½   €   €  €?   €  €¿   €                    
+×#@                         
+      	                                          
+×£=
+×£=(\?
+×£½
+×£=(\?
+×£½
+×£=(\¿
+×£=
+×£=(\¿
+×£=
+×£½(\?
+×£½
+×£½(\?
+×£½
+×£½(\¿
+×£=
+×£½(\¿                           
+×£=
+×£=(\¿      €?        ÿÿo?  €?   €   €   €   €  €¿                    
+×#@
+×£½
+×£=(\¿      €?      €½ÿÿo?  €?   €   €   €   €  €¿                    
+×#@
+×£=
+×£=(\?      €?         €=  €?   €   €   €   €  €¿                    
+×#@
+×£½
+×£=(\?      €?      €½ €=  €?   €   €   €   €  €¿                    
+×#@
+×£=
+×£½(\?      €¿         €=  €¿           €   €  €¿                    
+×#@
+×£½
+×£½(\?      €¿      €= €=  €¿           €   €  €¿                    
+×#@
+×£=
+×£½(\¿      €¿        ÿÿo?  €¿           €   €  €¿                    
+×#@
+×£½
+×£½(\¿      €¿      €=ÿÿo?  €¿           €   €  €¿                    
+×#@
+×£=
+×£=(\?   €      €?      €½  €¿           €  €¿   €                    
+×#@
+×£½
+×£=(\?   €      €?  €=  €½  €¿           €  €¿   €                    
+×#@
+×£=
+×£½(\?   €      €?          €¿           €  €¿   €                    
+×#@
+×£½
+×£½(\?   €      €?  €=      €¿           €  €¿   €                    
+×#@
+×£½
+×£=(\¿   €   €  €¿  €½  €½  €?           €  €¿   €                    
+×#@
+×£=
+×£=(\¿   €   €  €¿      €½  €?           €  €¿   €                    
+×#@
+×£½
+×£½(\¿   €   €  €¿  €½      €?           €  €¿   €                    
+×#@
+×£=
+×£½(\¿   €   €  €¿          €?           €  €¿   €                    
+×#@
+×£½
+×£=(\?  €¿         €=  €½          €¿   €  €¿   €                    
+×#@
+×£½
+×£=(\¿  €¿        ÿÿo?  €½          €¿   €  €¿   €                    
+×#@
+×£½
+×£½(\?  €¿         €=              €¿   €  €¿   €                    
+×#@
+×£½
+×£½(\¿  €¿        ÿÿo?              €¿   €  €¿   €                    
+×#@
+×£=
+×£½(\?  €?         €½       €   €  €?   €  €¿   €                    
+×#@
+×£=
+×£½(\¿  €?        ÿÿo¿       €   €  €?   €  €¿   €                    
+×#@
+×£=
+×£=(\?  €?         €½  €½   €   €  €?   €  €¿   €                    
+×#@
+×£=
+×£=(\¿  €?        ÿÿo¿  €½   €   €  €?   €  €¿   €                    
+×#@                         
+      	                                          (\?
+×£=(\?(\¿
+×£=(\?(\¿
+×£=(\¿(\?
+×£=(\¿(\?
+×£½(\?(\¿
+×£½(\?(\¿
+×£½(\¿(\?
+×£½(\¿                           (\?
+×£=(\¿      €?     €¾ÿÿo@  €?   €   €   €   €  €¿                    
+×#?(\¿
+×£=(\¿      €?    ÿÿoÀÿÿo@  €?   €   €   €   €  €¿                    
+×#?(\?
+×£=(\?      €?     €¾ €>  €?   €   €   €   €  €¿                    
+×#?(\¿
+×£=(\?      €?    ÿÿoÀ €>  €?   €   €   €   €  €¿                    
+×#?(\?
+×£½(\?      €¿     €> €>  €¿           €   €  €¿                    
+×#?(\¿
+×£½(\?      €¿    ÿÿo@ €>  €¿           €   €  €¿                    
+×#?(\?
+×£½(\¿      €¿     €>ÿÿo@  €¿           €   €  €¿                    
+×#?(\¿
+×£½(\¿      €¿    ÿÿo@ÿÿo@  €¿           €   €  €¿                    
+×#?(\?
+×£=(\?   €      €? €>  €¾  €¿           €  €¿   €                    
+×#?(\¿
+×£=(\?   €      €?ÿÿo@  €¾  €¿           €  €¿   €                    
+×#?(\?
+×£½(\?   €      €? €>      €¿           €  €¿   €                    
+×#?(\¿
+×£½(\?   €      €?ÿÿo@      €¿           €  €¿   €                    
+×#?(\¿
+×£=(\¿   €   €  €¿ÿÿoÀ  €¾  €?           €  €¿   €                    
+×#?(\?
+×£=(\¿   €   €  €¿ €¾  €¾  €?           €  €¿   €                    
+×#?(\¿
+×£½(\¿   €   €  €¿ÿÿoÀ      €?           €  €¿   €                    
+×#?(\?
+×£½(\¿   €   €  €¿ €¾      €?           €  €¿   €                    
+×#?(\¿
+×£=(\?  €¿         €>  €¾          €¿   €  €¿   €                    
+×#?(\¿
+×£=(\¿  €¿        ÿÿo@  €¾          €¿   €  €¿   €                    
+×#?(\¿
+×£½(\?  €¿         €>              €¿   €  €¿   €                    
+×#?(\¿
+×£½(\¿  €¿        ÿÿo@              €¿   €  €¿   €                    
+×#?(\?
+×£½(\?  €?         €¾       €   €  €?   €  €¿   €                    
+×#?(\?
+×£½(\¿  €?        ÿÿoÀ       €   €  €?   €  €¿   €                    
+×#?(\?
+×£=(\?  €?         €¾  €¾   €   €  €?   €  €¿   €                    
+×#?(\?
+×£=(\¿  €?        ÿÿoÀ  €¾   €   €  €?   €  €¿   €                    
+×#?                         
+      	                                          €Æ¹¿ˆÆ¹¿(\?ðdC@ðæ¾(\?ðdC@ðæ¾(\¿€Æ¹¿ˆÆ¹¿(\¿àæ¾ôdC@(\?àæ¾ôdC@(\¿                     €Æ¹¿ˆÆ¹¿(\¿šŽ>òu¿     ¾ÿÿo?òu¿šŽ¾   €   €   €  €¿                    
+×#@ðdC@ðæ¾(\¿šŽ>òu¿    >A•¿ÿÿo?òu¿šŽ¾   €   €   €  €¿                    
+×#@€Æ¹¿ˆÆ¹¿(\?šŽ>òu¿     ¾  €=òu¿šŽ¾   €   €   €  €¿                    
+×#@ðdC@ðæ¾(\?šŽ>òu¿    >A•¿  €=òu¿šŽ¾   €   €   €  €¿                    
+×#@àæ¾ôdC@(\?òu¿“Ž>      €½ €?   €   €  €?“Ž>òu?   €                    
+×#@àæ¾ôdC@(\¿òu¿“Ž>    ÿÿo¿ €?   €   €  €?“Ž>òu?   €                    
+×#@€Æ¹¿ˆÆ¹¿(\?òu¿“Ž>      €½{‚¿   €   €  €?“Ž>òu?   €                    
+×#@€Æ¹¿ˆÆ¹¿(\¿òu¿“Ž>    ÿÿo¿{‚¿   €   €  €?“Ž>òu?   €                    
+×#@ðdC@ðæ¾(\?õ5?ñ5?   €>A•?  €=ñ5?ö5¿   €   €      €¿                    
+×#@ðdC@ðæ¾(\¿õ5?ñ5?   €>A•?ÿÿo?ñ5?ö5¿   €   €      €¿                    
+×#@àæ¾ôdC@(\?õ5?ñ5?   €~‚¿  €=ñ5?ö5¿   €   €      €¿                    
+×#@àæ¾ôdC@(\¿õ5?ñ5?   €~‚¿ÿÿo?ñ5?ö5¿   €   €      €¿                    
+×#@                         
+      	      €Æ¹¿ˆÆ¹¿(\?          €? >{‚¿õ5?ñ5¿    ó5?ô5?                        
+×#@ðdC@ðæ¾(\?          €?>A•?ûÿ?õ5?ñ5¿    ó5?ô5?                        
+×#@àæ¾ôdC@(\?          €?~‚¿ €?õ5?ñ5¿    ó5?ô5?                        
+×#@àæ¾ôdC@(\¿   €      €¿~‚? €?õ5¿ñ5?    ô5?ô5?                        
+×#@ðdC@ðæ¾(\¿   €      €¿>A•¿ûÿ?õ5¿ñ5?    ô5?ô5?                        
+×#@€Æ¹¿ˆÆ¹¿(\¿   €      €¿ ¾{‚¿õ5¿ñ5?    ô5?ô5?                        
+×#@                   
+×#¿
+×#¿(\?
+×#?
+×#¿(\?2@à? ¤ñ>¸À–¤ñ> ¤ñ>¸À
+×#¿
+×#?(\?–¤ñ>0@à?¸À                     –¤ñ> ¤ñ>¸À   €Ñq¿n¨¾ €>þÿ§?  €¿   €   €¿¬Ÿ>À¬Ÿ> Áe¿                    
+×#@2@à? ¤ñ>¸À   €Ñq¿n¨¾ØÔ½þÿ§?  €¿   €   €¿¬Ÿ>À¬Ÿ> Áe¿                    
+×#@
+×#¿
+×#¿(\?   €Ñq¿n¨¾ €>àÿ=  €¿   €   €¿¬Ÿ>À¬Ÿ> Áe¿                    
+×#@
+×#?
+×#¿(\?   €Ñq¿n¨¾ÐÔ½àÿ=  €¿   €   €¿¬Ÿ>À¬Ÿ> Áe¿                    
+×#@
+×#¿
+×#?(\?Ñq¿   €k¨¾àÿ½üÿ¾¾¬Ÿ¾´¬Ÿ>£Áe?   €  €?   €                    
+×#@–¤ñ>0@à?¸ÀÑq¿   €k¨¾þÿ§¿r‚º>¾¬Ÿ¾´¬Ÿ>£Áe?   €  €?   €                    
+×#@
+×#¿
+×#¿(\?Ñq¿   €k¨¾àÿ½z‚¿¾¬Ÿ¾´¬Ÿ>£Áe?   €  €?   €                    
+×#@–¤ñ> ¤ñ>¸ÀÑq¿   €k¨¾þÿ§¿€¯/<¾¬Ÿ¾´¬Ÿ>£Áe?   €  €?   €                    
+×#@
+×#?
+×#¿(\?Uv"?Yv"?tÐá>ÐÔ=àÿ=ø5?ñ5¿   €¾¬Ÿ>¿¬Ÿ>¡Áe¿                    
+×#@2@à? ¤ñ>¸ÀUv"?Yv"?tÐá>ØÔ=þÿ§?ø5?ñ5¿   €¾¬Ÿ>¿¬Ÿ>¡Áe¿                    
+×#@
+×#¿
+×#?(\?Uv"?Yv"?tÐá>{‚¿àÿ=ø5?ñ5¿   €¾¬Ÿ>¿¬Ÿ>¡Áe¿                    
+×#@–¤ñ>0@à?¸ÀUv"?Yv"?tÐá>{‚¿þÿ§?ø5?ñ5¿   €¾¬Ÿ>¿¬Ÿ>¡Áe¿                    
+×#@                         
+      	      
+×#¿
+×#¿(\?          €? €¾z‚¿õ5?ñ5¿    ò5?ô5?                        
+×#@
+×#?
+×#¿(\?          €?ÐÔ= €¾õ5?ñ5¿    ò5?ô5?                        
+×#@
+×#¿
+×#?(\?          €?{‚¿üÿ¾õ5?ñ5¿    ò5?ô5?                        
+×#@–¤ñ>0@à?¸À          €¿{‚?r‚º>õ5¿ñ5?   €ó5?ó5?                        
+×#@2@à? ¤ñ>¸À          €¿ØÔ½r‚º>õ5¿ñ5?   €ó5?ó5?                        
+×#@–¤ñ> ¤ñ>¸À          €¿ €>€¯/<õ5¿ñ5?   €ó5?ó5?                        
+×#@                   
+×#¿
+×#¿(\?
+×#?
+×#¿(\?Ö×—?€ó¿½œÂõ¿€´ç½ ´ç½”Âõ¿
+×#¿
+×#?(\?`ó¿½Ò×—?œÂõ¿                     €´ç½ ´ç½”Âõ¿|úp<Ñ|¿w2¾þÿS@þÿ¯¿âV2¾áV2>x¿  €?   €                        
+×#@Ö×—?€ó¿½œÂõ¿|úp<Ñ|¿w2¾  T@__¿âV2¾áV2>x¿  €?   €                        
+×#@
+×#¿
+×#¿(\?|úp<Ñ|¿w2¾þÿ@:AÕ¿âV2¾áV2>x¿  €?   €                        
+×#@
+×#?
+×#¿(\?|úp<Ñ|¿w2¾þÿ@ýÿ§¿âV2¾áV2>x¿  €?   €                        
+×#@
+×#¿
+×#?(\?Ò|¿€úp<w2¾  €½  €¾Á‘'¾Ä‘'>ãy?>¹t<¯ø?÷â¥4                    
+×#@`ó¿½Ò×—?œÂõ¿Ò|¿€úp<w2¾  ¿ÀT=Á‘'¾Ä‘'>ãy?>¹t<¯ø?÷â¥4                    
+×#@
+×#¿
+×#¿(\?Ò|¿€úp<w2¾  €½z‚¿Á‘'¾Ä‘'>ãy?>¹t<¯ø?÷â¥4                    
+×#@€´ç½ ´ç½”Âõ¿Ò|¿€úp<w2¾   ¿  ¾Á‘'¾Ä‘'>ãy?>¹t<¯ø?÷â¥4                    
+×#@
+×#?
+×#¿(\?]q/?_q/?È5|>ÐÔ=  €=ô5?ñ5¿   €ßV2>çV2>x¿                    
+×#@Ö×—?€ó¿½œÂõ¿]q/?_q/?È5|>äÔ=  ?ô5?ñ5¿   €ßV2>çV2>x¿                    
+×#@
+×#¿
+×#?(\?]q/?_q/?È5|>{‚¿  €=ô5?ñ5¿   €ßV2>çV2>x¿                    
+×#@`ó¿½Ò×—?œÂõ¿]q/?_q/?È5|>x‚¿  ?ô5?ñ5¿   €ßV2>çV2>x¿                    
+×#@                         
+      	      
+×#¿
+×#¿(\?          €? €¾z‚¿ô5?ô5¿    ò5?ô5?                        
+×#@
+×#?
+×#¿(\?          €?ÐÔ=  €¾ô5?ô5¿    ò5?ô5?                        
+×#@
+×#¿
+×#?(\?          €?{‚¿  €¾ô5?ô5¿    ò5?ô5?                        
+×#@`ó¿½Ò×—?œÂõ¿ÌBµÎBµ  €¿x‚?ÀT=õ5¿ò5?   €ó5?ô5?B‰µ                    
+×#@Ö×—?€ó¿½œÂõ¿ÌBµÎBµ  €¿äÔ½ÀT=õ5¿ò5?   €ó5?ô5?B‰µ                    
+×#@€´ç½ ´ç½”Âõ¿ÌBµÎBµ  €¿üÿ>  ¾õ5¿ò5?   €ó5?ô5?B‰µ                    
+×#@                   RÇ-¿PÇ-¿ \?
+×#?
+×#¿(\?xÕ;?¤Ø¿˜Âõ¿¤Ø¿¤Ø¿˜Âõ¿
+×#¿
+×#?(\? Ø¿pÕ;?˜Âõ¿                     ¤Ø¿¤Ø¿˜Âõ¿   €àà¿rü¼ €>  ?¡ã¿¸ñ¼W³‹´|Sü<mSü<ËÁ¿                    
+×#@xÕ;?¤Ø¿˜Âõ¿   €àà¿rü¼àÔ½  ?¡ã¿¸ñ¼W³‹´|Sü<mSü<ËÁ¿                    
+×#@RÇ-¿PÇ-¿ \?   €àà¿rü¼ €>  €=¡ã¿¸ñ¼W³‹´|Sü<mSü<ËÁ¿                    
+×#@
+×#?
+×#¿(\?   €àà¿rü¼ÐÔ½  €=¡ã¿¸ñ¼W³‹´|Sü<mSü<ËÁ¿                    
+×#@
+×#¿
+×#?(\?àà¿¯çG4Arü¼  €½  €¾¯@2½â@2=Äƒ?ýÿG4  €?   €                    
+×#@ Ø¿pÕ;?˜Âõ¿àà¿¯çG4Arü¼  ¿ûJ¾¯@2½â@2=Äƒ?ýÿG4  €?   €                    
+×#@RÇ-¿PÇ-¿ \?àà¿¯çG4Arü¼  €½  ¿¯@2½â@2=Äƒ?ýÿG4  €?   €                    
+×#@¤Ø¿¤Ø¿˜Âõ¿àà¿¯çG4Arü¼  ¿>A¿¯@2½â@2=Äƒ?ýÿG4  €?   €                    
+×#@
+×#?
+×#¿(\?öØ4?øØ4?þk2=ÐÔ=  €=ô5?ñ5¿   €‡Sü<‚Sü<ËÁ¿                    
+×#@xÕ;?¤Ø¿˜Âõ¿öØ4?øØ4?þk2=àÔ=  ?ô5?ñ5¿   €‡Sü<‚Sü<ËÁ¿                    
+×#@
+×#¿
+×#?(\?öØ4?øØ4?þk2={‚¿  €=ô5?ñ5¿   €‡Sü<‚Sü<ËÁ¿                    
+×#@ Ø¿pÕ;?˜Âõ¿öØ4?øØ4?þk2=z‚¿  ?ô5?ñ5¿   €‡Sü<‚Sü<ËÁ¿                    
+×#@                         
+      	      RÇ-¿PÇ-¿ \?Ñ<µÑ<µ  €? €¾  ¿ó5?ó5¿    ó5?ó5?TU…5                    
+×#@
+×#?
+×#¿(\?Ñ<µÑ<µ  €?ÐÔ=  €¾ó5?ó5¿    ó5?ó5?TU…5                    
+×#@
+×#¿
+×#?(\?Ñ<µÑ<µ  €?{‚¿  €¾ó5?ó5¿    ó5?ó5?TU…5                    
+×#@ Ø¿pÕ;?˜Âõ¿          €¿z‚?ûJ¾ô5¿ò5?   €ò5?ó5?                        
+×#@xÕ;?¤Ø¿˜Âõ¿          €¿àÔ½ûJ¾ô5¿ò5?   €ò5?ó5?                        
+×#@¤Ø¿¤Ø¿˜Âõ¿          €¿ €>>A¿ô5¿ò5?   €ò5?ó5?                        
+×#@                   žØ¿¤Ø¿(\?Ô×—?€ó¿½(\?A@xU‚?¸À¼Ð?¹Ð?¸À`ó¿½Ö×—?(\?xU‚?C@¸À                     ¼Ð?¹Ð?¸À…({>žbp¿XÙv¾ÿÿG@z‚Ú¾îMH¾îMH>zv¿–°w?"e>                        
+×#@A@xU‚?¸À…({>žbp¿XÙv¾ÿÿG@ø5>îMH¾îMH>zv¿–°w?"e>                        
+×#@žØ¿¤Ø¿(\?…({>žbp¿XÙv¾ÿÿï?<A…¿îMH¾îMH>zv¿–°w?"e>                        
+×#@Ô×—?€ó¿½(\?…({>žbp¿XÙv¾ÿÿï?üÿß¾îMH¾îMH>zv¿–°w?"e>                        
+×#@`ó¿½Ö×—?(\? bp¿y({>XÙv¾àÿ½  €3îMH¾êMH>zv?e>–°w?   €                    
+×#@xU‚?C@¸À bp¿y({>XÙv¾þÿ§¿<A?îMH¾êMH>zv?e>–°w?   €                    
+×#@žØ¿¤Ø¿(\? bp¿y({>XÙv¾àÿ½{‚¿îMH¾êMH>zv?e>–°w?   €                    
+×#@¼Ð?¹Ð?¸À bp¿y({>XÙv¾þÿ§¿À¯/<îMH¾êMH>zv?e>–°w?   €                    
+×#@Ô×—?€ó¿½(\?Yv"?Uv"?vÐá>àÔ=àÿ=ò5?õ5¿   €Á¬Ÿ>Ã¬Ÿ> Áe¿                    
+×#@A@xU‚?¸ÀYv"?Uv"?vÐá>àÔ=þÿ§?ò5?õ5¿   €Á¬Ÿ>Ã¬Ÿ> Áe¿                    
+×#@`ó¿½Ö×—?(\?Yv"?Uv"?vÐá>{‚¿àÿ=ò5?õ5¿   €Á¬Ÿ>Ã¬Ÿ> Áe¿                    
+×#@xU‚?C@¸ÀYv"?Uv"?vÐá>{‚¿þÿ§?ò5?õ5¿   €Á¬Ÿ>Ã¬Ÿ> Áe¿                    
+×#@                         
+      	      žØ¿¤Ø¿(\?          €?úÿ¾{‚¿ô5?ò5¿    ò5?ô5?                        
+×#@Ô×—?€ó¿½(\?          €?àÔ=   ´ô5?ò5¿    ò5?ô5?                        
+×#@`ó¿½Ö×—?(\?          €?{‚¿  €3ô5?ò5¿    ò5?ô5?                        
+×#@xU‚?C@¸À   €      €¿{‚?<A?ò5¿ó5?    ò5?ó5?                        
+×#@A@xU‚?¸À   €      €¿àÔ½:A?ò5¿ó5?    ò5?ó5?                        
+×#@¼Ð?¹Ð?¸À   €      €¿øÿ>À¯/<ò5¿ó5?    ò5?ó5?                        
+×#@                   žØ¿¤Ø¿(\?Ô×—?€ó¿½(\? ÄÝ?P´ç>œÂõ¿ Ÿ¼€Ÿ¼”Âõ¿`ó¿½Ö×—?(\?H´ç> ÄÝ?œÂõ¿                      Ÿ¼€Ÿ¼”Âõ¿F„>©9u¿ŸÇ ¾  D@  @¿Š:Õ½¢:Õ=²5}¿–°w?#e>                        
+×#@ ÄÝ?P´ç>œÂõ¿F„>©9u¿ŸÇ ¾ D@û
+¾Š:Õ½¢:Õ=²5}¿–°w?#e>                        
+×#@žØ¿¤Ø¿(\?F„>©9u¿ŸÇ ¾  ð?<A…¿Š:Õ½¢:Õ=²5}¿–°w?#e>                        
+×#@Ô×—?€ó¿½(\?F„>©9u¿ŸÇ ¾  ð?øÿß¾Š:Õ½¢:Õ=²5}¿–°w?#e>                        
+×#@`ó¿½Ö×—?(\?«9u¿<„>šÇ ¾  €½   4CIÊ½;IÊ={}}?ë-…>0w?¡m4                    
+×#@H´ç> ÄÝ?œÂõ¿«9u¿<„>šÇ ¾  ¿p‚š>CIÊ½;IÊ={}}?ë-…>0w?¡m4                    
+×#@žØ¿¤Ø¿(\?«9u¿<„>šÇ ¾  €½{‚¿CIÊ½;IÊ={}}?ë-…>0w?¡m4                    
+×#@ Ÿ¼€Ÿ¼”Âõ¿«9u¿<„>šÇ ¾   ¿  ¾CIÊ½;IÊ={}}?ë-…>0w?¡m4                    
+×#@Ô×—?€ó¿½(\?]q/?`q/?¾5|>àÔ=  €=ó5?ò5¿   €ÕV2>ÚV2>x¿                    
+×#@ ÄÝ?P´ç>œÂõ¿]q/?`q/?¾5|>èÔ=  ?ó5?ò5¿   €ÕV2>ÚV2>x¿                    
+×#@`ó¿½Ö×—?(\?]q/?`q/?¾5|>{‚¿  €=ó5?ò5¿   €ÕV2>ÚV2>x¿                    
+×#@H´ç> ÄÝ?œÂõ¿]q/?`q/?¾5|>{‚¿  ?ó5?ò5¿   €ÕV2>ÚV2>x¿                    
+×#@                         
+      	      žØ¿¤Ø¿(\?          €?úÿ¾{‚¿ó5?ó5¿    ò5?ô5?                        
+×#@Ô×—?€ó¿½(\?          €?àÔ=    ó5?ó5¿    ò5?ô5?                        
+×#@`ó¿½Ö×—?(\?          €?{‚¿   4ó5?ó5¿    ò5?ô5?                        
+×#@H´ç> ÄÝ?œÂõ¿g9æ´j9æ´  €¿{‚?p‚š>õ5¿ó5?   €ò5?ô5?Ë"µ                    
+×#@ ÄÝ?P´ç>œÂõ¿g9æ´j9æ´  €¿èÔ½p‚š>õ5¿ó5?   €ò5?ô5?Ë"µ                    
+×#@ Ÿ¼€Ÿ¼”Âõ¿g9æ´j9æ´  €¿úÿ>  ¾õ5¿ó5?   €ò5?ô5?Ë"µ                    
+×#@                   ìÈ¿ðÈ¿ \?Ô×—?€ó¿½(\?×£?  `µ˜Âõ¿È¤ñ¾À¤ñ¾˜Âõ¿`ó¿½Ö×—?(\?   µ×£?˜Âõ¿                     È¤ñ¾À¤ñ¾˜Âõ¿ä%…>!w¿ò!²¼ D@ €¿ÔŽ¼/ÔŽ<ì¿S¯v?×Ûˆ>–‰H4                    
+×#@×£?  `µ˜Âõ¿ä%…>!w¿ò!²¼ D@Œ}Å¾ÔŽ¼/ÔŽ<ì¿S¯v?×Ûˆ>–‰H4                    
+×#@ìÈ¿ðÈ¿ \?ä%…>!w¿ò!²¼ ð? ˆ¿ÔŽ¼/ÔŽ<ì¿S¯v?×Ûˆ>–‰H4                    
+×#@Ô×—?€ó¿½(\?ä%…>!w¿ò!²¼  ð?üÿß¾ÔŽ¼/ÔŽ<ì¿S¯v?×Ûˆ>–‰H4                    
+×#@`ó¿½Ö×—?(\?!w¿ã%…>–!²¼  €½    ƒd¯¼˜d¯<óá?ó-…>0w?   €                    
+×#@   µ×£?˜Âõ¿!w¿ã%…>–!²¼  ¿`T=ƒd¯¼˜d¯<óá?ó-…>0w?   €                    
+×#@ìÈ¿ðÈ¿ \?!w¿ã%…>–!²¼  €½  ¿ƒd¯¼˜d¯<óá?ó-…>0w?   €                    
+×#@È¤ñ¾À¤ñ¾˜Âõ¿!w¿ã%…>–!²¼  ¿ ¿ƒd¯¼˜d¯<óá?ó-…>0w?   €                    
+×#@Ô×—?€ó¿½(\?öØ4?ùØ4?Ék2=àÔ=  €=õ5?ò5¿   € Sü<	Sü<ËÁ¿                    
+×#@×£?  `µ˜Âõ¿öØ4?ùØ4?Ék2=ðÔ=  ?õ5?ò5¿   € Sü<	Sü<ËÁ¿                    
+×#@`ó¿½Ö×—?(\?öØ4?ùØ4?Ék2=z‚¿  €=õ5?ò5¿   € Sü<	Sü<ËÁ¿                    
+×#@   µ×£?˜Âõ¿öØ4?ùØ4?Ék2=|‚¿  ?õ5?ò5¿   € Sü<	Sü<ËÁ¿                    
+×#@                         
+      	      ìÈ¿ðÈ¿ \?-Fâ´'Fâ´  €?üÿ¾  ¿ó5?ò5¿&Fâ)ò5?õ5?üÿ5                    
+×#@Ô×—?€ó¿½(\?-Fâ´'Fâ´  €?àÔ=   ´ó5?ò5¿&Fâ)ò5?õ5?üÿ5                    
+×#@`ó¿½Ö×—?(\?-Fâ´'Fâ´  €?z‚¿    ó5?ò5¿&Fâ)ò5?õ5?üÿ5                    
+×#@   µ×£?˜Âõ¿   €      €¿|‚?`T=õ5¿ò5?   €ò5?ô5?                        
+×#@×£?  `µ˜Âõ¿   €      €¿ðÔ½`T=õ5¿ò5?   €ò5?ô5?                        
+×#@È¤ñ¾À¤ñ¾˜Âõ¿   €      €¿ €> ¿õ5¿ò5?   €ò5?ô5?                        
+×#@                   èÈ¿îÈ¿\?˜\‰?@Ÿ<\?A@xU‚?¸À¼Ð?¹Ð?¸ÀÓS¾S¦?\?xU‚?C@¸À                     ¼Ð?¹Ð?¸Àt}>Æ¡r¿láM¾  H@|‚Ú¾oôþ½žôþ=Y |¿?„p?!\¯>                        
+×#@A@xU‚?¸Àt}>Æ¡r¿láM¾  H@ð5>oôþ½žôþ=Y |¿?„p?!\¯>                        
+×#@èÈ¿îÈ¿\?t}>Æ¡r¿láM¾ ð?  ˆ¿oôþ½žôþ=Y |¿?„p?!\¯>                        
+×#@˜\‰?@Ÿ<\?t}>Æ¡r¿láM¾ ð?øÿß¾oôþ½žôþ=Y |¿?„p?!\¯>                        
+×#@ÓS¾S¦?\?vÊm¿Œrx>rL¾€ €½   4œ¼N¾}¼N>øWu?!e>—°w?   €                    
+×#@xU‚?C@¸ÀvÊm¿Œrx>rL¾  ¨¿@A?œ¼N¾}¼N>øWu?!e>—°w?   €                    
+×#@èÈ¿îÈ¿\?vÊm¿Œrx>rL¾€ €½  ¿œ¼N¾}¼N>øWu?!e>—°w?   €                    
+×#@¼Ð?¹Ð?¸ÀvÊm¿Œrx>rL¾  ¨¿€¯/<œ¼N¾}¼N>øWu?!e>—°w?   €                    
+×#@˜\‰?@Ÿ<\?Xv"?Tv"?}Ðá>p((=€ €=ñ5?ö5¿   €Ä¬Ÿ>Å¬Ÿ>žÁe¿                    
+×#@A@xU‚?¸ÀXv"?Tv"?}Ðá>àÔ=  ¨?ñ5?ö5¿   €Ä¬Ÿ>Å¬Ÿ>žÁe¿                    
+×#@ÓS¾S¦?\?Xv"?Tv"?}Ðá>q‚*¿€ €=ñ5?ö5¿   €Ä¬Ÿ>Å¬Ÿ>žÁe¿                    
+×#@xU‚?C@¸ÀXv"?Tv"?}Ðá>{‚¿  ¨?ñ5?ö5¿   €Ä¬Ÿ>Å¬Ÿ>žÁe¿                    
+×#@                         
+      	      èÈ¿îÈ¿\?          €?úÿ¾  ¿ò5?õ5¿    ò5?ô5?                        
+×#@˜\‰?@Ÿ<\?          €?p((=    ò5?õ5¿    ò5?ô5?                        
+×#@ÓS¾S¦?\?          €?q‚*¿   4ò5?õ5¿    ò5?ô5?                        
+×#@xU‚?C@¸À   €      €¿{‚?@A?ú5¿î5?    ò5?ó5?                        
+×#@A@xU‚?¸À   €      €¿àÔ½8A?ú5¿î5?    ò5?ó5?                        
+×#@¼Ð?¹Ð?¸À   €      €¿øÿ>€¯/<ú5¿î5?    ò5?ó5?                        
+×#@                   žØ¿¤Ø¿(\?Ô×—?€ó¿½(\? ÄÝ?P´ç>œÂõ¿ Ÿ¼€Ÿ¼”Âõ¿`ó¿½Ö×—?(\?H´ç> ÄÝ?œÂõ¿                      Ÿ¼€Ÿ¼”Âõ¿F„>©9u¿ŸÇ ¾  D@  @¿Š:Õ½¢:Õ=²5}¿–°w?#e>                        
+×#@ ÄÝ?P´ç>œÂõ¿F„>©9u¿ŸÇ ¾ D@û
+¾Š:Õ½¢:Õ=²5}¿–°w?#e>                        
+×#@žØ¿¤Ø¿(\?F„>©9u¿ŸÇ ¾  ð?<A…¿Š:Õ½¢:Õ=²5}¿–°w?#e>                        
+×#@Ô×—?€ó¿½(\?F„>©9u¿ŸÇ ¾  ð?øÿß¾Š:Õ½¢:Õ=²5}¿–°w?#e>                        
+×#@`ó¿½Ö×—?(\?«9u¿<„>šÇ ¾  €½    ?IÊ½DIÊ=z}}?ë-…>0w?¡m4                    
+×#@H´ç> ÄÝ?œÂõ¿«9u¿<„>šÇ ¾  ¿p‚š>?IÊ½DIÊ=z}}?ë-…>0w?¡m4                    
+×#@žØ¿¤Ø¿(\?«9u¿<„>šÇ ¾  €½|‚¿?IÊ½DIÊ=z}}?ë-…>0w?¡m4                    
+×#@ Ÿ¼€Ÿ¼”Âõ¿«9u¿<„>šÇ ¾   ¿  ¾?IÊ½DIÊ=z}}?ë-…>0w?¡m4                    
+×#@Ô×—?€ó¿½(\?]q/?`q/?¾5|>àÔ=  €=ó5?ò5¿   €ÕV2>ÚV2>x¿                    
+×#@ ÄÝ?P´ç>œÂõ¿]q/?`q/?¾5|>èÔ=  ?ó5?ò5¿   €ÕV2>ÚV2>x¿                    
+×#@`ó¿½Ö×—?(\?]q/?`q/?¾5|>{‚¿  €=ó5?ò5¿   €ÕV2>ÚV2>x¿                    
+×#@H´ç> ÄÝ?œÂõ¿]q/?`q/?¾5|>{‚¿  ?ó5?ò5¿   €ÕV2>ÚV2>x¿                    
+×#@                         
+      	      žØ¿¤Ø¿(\?          €?úÿ¾|‚¿ð5?õ5¿    ò5?ô5?                        
+×#@Ô×—?€ó¿½(\?          €?àÔ=    ð5?õ5¿    ò5?ô5?                        
+×#@`ó¿½Ö×—?(\?          €?{‚¿    ð5?õ5¿    ò5?ô5?                        
+×#@H´ç> ÄÝ?œÂõ¿g9æ´j9æ´  €¿{‚?p‚š>õ5¿ó5?   €ò5?ô5?Ë"µ                    
+×#@ ÄÝ?P´ç>œÂõ¿g9æ´j9æ´  €¿èÔ½p‚š>õ5¿ó5?   €ò5?ô5?Ë"µ                    
+×#@ Ÿ¼€Ÿ¼”Âõ¿g9æ´j9æ´  €¿úÿ>  ¾õ5¿ó5?   €ò5?ô5?Ë"µ                    
+×#@                   ìÈ¿ðÈ¿ \?Ô×—?€ó¿½(\?×£?  `µ˜Âõ¿€´ç¾ˆ´ç¾˜Âõ¿`ó¿½Ö×—?(\?   µ×£?˜Âõ¿                     €´ç¾ˆ´ç¾˜Âõ¿]>1¡w¿1~´¼ D@@A}¿ÔŽ¼/ÔŽ<ì¿S¯v?×Ûˆ>C5                    
+×#@×£?  `µ˜Âõ¿]>1¡w¿1~´¼ D@ˆ}Å¾ÔŽ¼/ÔŽ<ì¿S¯v?×Ûˆ>C5                    
+×#@ìÈ¿ðÈ¿ \?]>1¡w¿1~´¼ ð?  ˆ¿ÔŽ¼/ÔŽ<ì¿S¯v?×Ûˆ>C5                    
+×#@Ô×—?€ó¿½(\?]>1¡w¿1~´¼ ð?øÿß¾ÔŽ¼/ÔŽ<ì¿S¯v?×Ûˆ>C5                    
+×#@`ó¿½Ö×—?(\?2¡w¿]>ß}´¼@ €½    ³Ñ¼…Ñ<JÕ?e>˜°w?   €                    
+×#@   µ×£?˜Âõ¿2¡w¿]>ß}´¼  ¿@T=³Ñ¼…Ñ<JÕ?e>˜°w?   €                    
+×#@ìÈ¿ðÈ¿ \?2¡w¿]>ß}´¼@ €½  ¿³Ñ¼…Ñ<JÕ?e>˜°w?   €                    
+×#@€´ç¾ˆ´ç¾˜Âõ¿2¡w¿]>ß}´¼  ¿HA¿³Ñ¼…Ñ<JÕ?e>˜°w?   €                    
+×#@Ô×—?€ó¿½(\?öØ4?ùØ4?Ék2=àÔ=@ €=õ5?ñ5¿   € Sü<	Sü<ËÁ¿                    
+×#@×£?  `µ˜Âõ¿öØ4?ùØ4?Ék2=ðÔ=  ?õ5?ñ5¿   € Sü<	Sü<ËÁ¿                    
+×#@`ó¿½Ö×—?(\?öØ4?ùØ4?Ék2=z‚¿@ €=õ5?ñ5¿   € Sü<	Sü<ËÁ¿                    
+×#@   µ×£?˜Âõ¿öØ4?ùØ4?Ék2=|‚¿  ?õ5?ñ5¿   € Sü<	Sü<ËÁ¿                    
+×#@                         
+      	      ìÈ¿ðÈ¿ \?-Fâ´'Fâ´  €?úÿ¾  ¿õ5?ò5¿&Fb*ò5?ó5?ûÿ5                    
+×#@Ô×—?€ó¿½(\?-Fâ´'Fâ´  €?àÔ=  €´õ5?ò5¿&Fb*ò5?ó5?ûÿ5                    
+×#@`ó¿½Ö×—?(\?-Fâ´'Fâ´  €?z‚¿    õ5?ò5¿&Fb*ò5?ó5?ûÿ5                    
+×#@   µ×£?˜Âõ¿   €      €¿|‚?@T=õ5¿ò5?   €ò5?õ5?                        
+×#@×£?  `µ˜Âõ¿   €      €¿ðÔ½@T=õ5¿ò5?   €ò5?õ5?                        
+×#@€´ç¾ˆ´ç¾˜Âõ¿   €      €¿úÿ>HA¿õ5¿ò5?   €ò5?õ5?                        
+×#@                   L¶@@ñú?÷(\AAÓ@‚ûQ@÷(\AÂG@øÓS¾ \¿Üˆ²¿-Á¿ \¿"9Y@qÏ@÷(\A ó¿½"Æ?@ \¿                     Üˆ²¿-Á¿ \¿ûJŒ>éÙr¿.í!>  À¿^_	@³p>´p¾Rà{¿©¾u?Þv>                        
+×#@ÂG@øÓS¾ \¿ûJŒ>éÙr¿.í!>  À¿üÿo@³p>´p¾Rà{¿©¾u?Þv>                        
+×#@L¶@@ñú?÷(\AûJŒ>éÙr¿.í!>  êÀÿÿ@³p>´p¾Rà{¿©¾u?Þv>                        
+×#@AÓ@‚ûQ@÷(\AûJŒ>éÙr¿.í!>  êÀ&¨µ@³p>´p¾Rà{¿©¾u?Þv>                        
+×#@"9Y@qÏ@÷(\AëÙr¿íJŒ>3í!> œ@QP;@‰“>‹“¾Þ{?Ž>òu?   €                    
+×#@ ó¿½"Æ?@ \¿ëÙr¿íJŒ>3í!>øÿo¿  €?‰“>‹“¾Þ{?Ž>òu?   €                    
+×#@L¶@@ñú?÷(\AëÙr¿íJŒ>3í!> œ@ ¨?‰“>‹“¾Þ{?Ž>òu?   €                    
+×#@Üˆ²¿-Á¿ \¿ëÙr¿íJŒ>3í!>øÿo¿z‚¿‰“>‹“¾Þ{?Ž>òu?   €                    
+×#@AÓ@‚ûQ@÷(\A,Ó+?)Ó+?ù¡¾?A™? œÀó5?ô5¿   €ôÔc¾÷Ôc¾@ÿr¿                    
+×#@ÂG@øÓS¾ \¿,Ó+?)Ó+?ù¡¾>A™?øÿo?ó5?ô5¿   €ôÔc¾÷Ôc¾@ÿr¿                    
+×#@"9Y@qÏ@÷(\A,Ó+?)Ó+?ù¡¾~‚¿ œÀó5?ô5¿   €ôÔc¾÷Ôc¾@ÿr¿                    
+×#@ ó¿½"Æ?@ \¿,Ó+?)Ó+?ù¡¾€‚¿øÿo?ó5?ô5¿   €ôÔc¾÷Ôc¾@ÿr¿                    
+×#@                         
+      	      L¶@@ñú?÷(\A          €?  > ¨?ó5?ó5¿    ó5?ô5?                        
+×#@AÓ@‚ûQ@÷(\A          €??A™?QP;@ó5?ó5¿    ó5?ô5?                        
+×#@"9Y@qÏ@÷(\A          €?~‚¿QP;@ó5?ó5¿    ó5?ô5?                        
+×#@ ó¿½"Æ?@ \¿   €      €¿€‚?  €?ò5¿ó5?    ó5?ò5?                        
+×#@ÂG@øÓS¾ \¿   €      €¿>A™¿þÿ?ò5¿ó5?    ó5?ò5?                        
+×#@Üˆ²¿-Á¿ \¿   €      €¿  ¾z‚¿ò5¿ó5?    ó5?ò5?                        
+×#@                    ¾Ê> Ð>ìQxAùÏœ@Ü½Ê?ìQxAÂG@øÓS¾ \¿ö€·¿JüÅ¿\¿$9Ù?'1™@ìQxA ó¿½"Æ?@ \¿                     ö€·¿JüÅ¿\¿bs>råt¿[©”= À¿þÿ@Ç_r=Ð_r½¿òu?¡Ž>                        
+×#@ÂG@øÓS¾ \¿bs>råt¿[©”=  À¿üÿo@Ç_r=Ð_r½¿òu?¡Ž>                        
+×#@ ¾Ê> Ð>ìQxAbs>råt¿[©”=   Á­¯H@Ç_r=Ð_r½¿òu?¡Ž>                        
+×#@ùÏœ@Ü½Ê?ìQxAbs>råt¿[©”=   Á&¨—@Ç_r=Ð_r½¿òu?¡Ž>                        
+×#@$9Ù?'1™@ìQxAtåt¿Qs>j©”= ²@  þ?ÇXt=ÊXt½\? Õ>G‹u?   €                    
+×#@ ó¿½"Æ?@ \¿tåt¿Qs>j©”=ðÿo¿  €?ÇXt=ÊXt½\? Õ>G‹u?   €                    
+×#@ ¾Ê> Ð>ìQxAtåt¿Qs>j©”= ²@ˆ}Å>ÇXt=ÊXt½\? Õ>G‹u?   €                    
+×#@ö€·¿JüÅ¿\¿tåt¿Qs>j©”=àÿo¿øÿ¿ÇXt=ÊXt½\? Õ>G‹u?   €                    
+×#@ùÏœ@Ü½Ê?ìQxAcõ2?`õ2?.¾AA™? ²Àò5?õ5¿   €åÙ½åÙ½è}¿                    
+×#@ÂG@øÓS¾ \¿cõ2?`õ2?.¾>A™?ðÿo?ò5?õ5¿   €åÙ½åÙ½è}¿                    
+×#@$9Ù?'1™@ìQxAcõ2?`õ2?.¾|‚¿ ²Àò5?õ5¿   €åÙ½åÙ½è}¿                    
+×#@ ó¿½"Æ?@ \¿cõ2?`õ2?.¾€‚¿ðÿo?ò5?õ5¿   €åÙ½åÙ½è}¿                    
+×#@                         
+      	       ¾Ê> Ð>ìQxA          €?  >ˆ}Å>ò5?ó5¿    ó5?ô5?                        
+×#@ùÏœ@Ü½Ê?ìQxA          €?AA™?  þ?ò5?ó5¿    ó5?ô5?                        
+×#@$9Ù?'1™@ìQxA          €?|‚¿  þ?ò5?ó5¿    ó5?ô5?                        
+×#@ ó¿½"Æ?@ \¿¡®´Ÿ®´  €¿€‚?  €?ò5¿ô5?   €ó5?ô5?h'ö´                    
+×#@ÂG@øÓS¾ \¿¡®´Ÿ®´  €¿>A™¿  €?ò5¿ô5?   €ó5?ô5?h'ö´                    
+×#@ö€·¿JüÅ¿\¿¡®´Ÿ®´  €¿  ¾øÿ¿ò5¿ô5?   €ó5?ô5?h'ö´                    
+×#@                   

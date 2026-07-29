@@ -1,0 +1,12 @@
+{
+	"shaderfamily":
+	{
+		"root": "Shaders/PBR.fam",
+		"shaders":
+		{
+			"solid": "Shaders/Editor/ColoredShaded.frag",
+			"multimaterial2": "Shaders/Editor/ColoredShaded.frag",
+			"multimaterial3": "Shaders/Editor/ColoredShaded.frag"
+		}	
+	}
+}

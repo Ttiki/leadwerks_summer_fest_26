@@ -281,12 +281,7 @@ void FPSPlayer::Update()
 			freelookmousepos = Vec3(window->GetMousePosition().x, window->GetMousePosition().y);
 			window->SetCursor(CURSOR_NONE);
 		}
-
-		if (window->KeyHit(KEY_G))
-		{
-			float a = Random(360.0f);
-			camerashakerotation = Quat(Vec3(Cos(a) * 30.0f, Sin(a) * 30.0f, 0.0f));
-		}
+		
 		// Camera shake when hit
 		float speed = 0.1f;
 		float diff = Vec4(camerashakerotation.x, camerashakerotation.y, camerashakerotation.z, camerashakerotation.w).Length();

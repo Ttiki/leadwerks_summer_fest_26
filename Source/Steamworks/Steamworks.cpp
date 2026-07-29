@@ -287,7 +287,7 @@ namespace Steamworks
 	{
 		if (not Initialize()) return false;
 		String s = name.ToUtf8String();
-		SteamUserStats()->SetStat(s.c_str(), i);
+		return SteamUserStats()->SetStat(s.c_str(), i);
 	}
 
 	int GetStat(const WString& name)
