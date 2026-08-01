@@ -19,33 +19,18 @@ void TriggerChangeMap::Start()
     }
 }
 
-void TriggerChangeMap::Update()
-{
-    
-}
+
 
 void TriggerChangeMap::Collide(shared_ptr<Entity> collidedentity, const Vec3& position, const Vec3& normal, const float speed)
 {
 	if (mapName != "" && enabled)
 	{
 		// Load the new map
-        LoadScene(world, mapName);
+        LoadScene(world, "Maps/" + mapName);
 	}
 }
 
-bool TriggerChangeMap::ProcessEvent(const Event& e)
-{
-    /*switch (e.id)
-    {
-    case EVENT_KEYDOWN:
-        if (e.data == KEY_SPACE)
-        {
-            Print("Space key pressed");
-        }
-        break;
-    }*/
-    return true;
-}
+
 
 //This method will work with simple components
 shared_ptr<Component> TriggerChangeMap::Copy()

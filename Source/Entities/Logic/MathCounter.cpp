@@ -15,6 +15,7 @@ int MathCounter::Add()
 	if (enabled)
 	{
 		value += addedValue;
+		FireOutputs("Add");
 	}
 	return value;
 }
@@ -24,6 +25,7 @@ int MathCounter::Subtract()
 	if (enabled)
 	{
         value -= addedValue;
+		FireOutputs("Subtract");
 	}
 	return value;
 }
@@ -33,6 +35,7 @@ int MathCounter::Reset()
 	if (enabled)
 	{
 		value = beginValue;
+		FireOutputs("Reset");
 	}
 	return value;
 }

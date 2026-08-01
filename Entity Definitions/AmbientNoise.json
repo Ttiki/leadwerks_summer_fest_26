@@ -40,7 +40,49 @@
 			}
 		],
 		"properties":
-		{}
-
+		[
+			{
+				"label": "Pitch",
+				"name": "pitch",
+				"value": 1.0
+			},
+			{
+				"label": "Volume",
+				"name": "volume",
+				"value": 1.0
+			},
+			{
+				"label": "Range",
+				"name": "range",
+				"value": 10.0
+			},
+			{
+				"label": "Loop mode",
+				"name": "loopmode",
+				"value": true
+			},
+			{
+				"filecategory": "SOUND",
+				"label": "Sound",
+				"name": "soundpath",
+				"type": "SOUND",
+				"value": "L\"\""
+			},
+			{
+				"label": "Modulated volume",
+				"name": "modulatedvolume",
+				"value": 1.0
+			},
+			{
+				"label": "Target volume",
+				"name": "targetvolume",
+				"value": 1.0
+			},
+			{
+				"label": "Start playing",
+				"name": "startplaying",
+				"value": true
+			}
+		]
 	}
 }

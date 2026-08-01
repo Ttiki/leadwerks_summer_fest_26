@@ -9,13 +9,14 @@ class MathCounter : public BaseComponent//Component
 public: 
     int beginValue = 0;//"Begin value"
     int addedValue = 0.0f;//"Added value"
-    bool enabled = true;//"Enabled"
+	bool enabled = true;//"Enabled"
+
 
     virtual void Start();
     
-    virtual int Add();
-	virtual int Subtract();
-    virtual int Reset();
+    virtual int Add();//inout
+	virtual int Subtract();//inout
+    virtual int Reset();//inout
 
 	virtual bool Load(table& properties, std::shared_ptr<Stream> binstream, std::shared_ptr<Scene> scene, const LoadFlags flags, std::shared_ptr<Object> extra);
     virtual bool Save(table& properties, std::shared_ptr<Stream> binstream, std::shared_ptr<Scene> scene, const SaveFlags flags, std::shared_ptr<Object> extra);

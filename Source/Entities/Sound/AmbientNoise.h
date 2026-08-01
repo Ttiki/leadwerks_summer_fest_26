@@ -7,16 +7,17 @@ using namespace Leadwerks;
 class AmbientNoise : public BaseComponent//Component
 {
 public: 
-    float pitch = 1.0f;
-    float volume = 1.0;
-    float range = 10.0f;
-    bool loopmode = true;
-    std::shared_ptr<Speaker> speaker;
-    std::shared_ptr<Sound> sound;
+	float pitch = 1.0f; //"Pitch"
+	float volume = 1.0; //"Volume"
+	float range = 10.0f; //"Range"
+	bool loopmode = true; //"Loop mode"
+	WString soundpath = L""; //"Sound" SOUND
+	std::shared_ptr<Speaker> speaker; 
+	std::shared_ptr<Sound> sound; 
     shared_ptr<Timer> timer;
-    float modulatedvolume = 1.0f;
-    float targetvolume = 1.0f;
-    bool startplaying = true;
+	float modulatedvolume = 1.0f;//"Modulated volume"
+	float targetvolume = 1.0f;//"Target volume"
+	bool startplaying = true;//"Start playing"
 
     AmbientNoise();
 

@@ -4,11 +4,29 @@
 	{
 		"group": "Logic",
 		"inputs":
-		{}
-,
+		[
+			{
+				"name": "Add"
+			},
+			{
+				"name": "Subtract"
+			},
+			{
+				"name": "Reset"
+			}
+		],
 		"outputs":
-		{}
-,
+		[
+			{
+				"name": "Add"
+			},
+			{
+				"name": "Subtract"
+			},
+			{
+				"name": "Reset"
+			}
+		],
 		"properties":
 		[
 			{

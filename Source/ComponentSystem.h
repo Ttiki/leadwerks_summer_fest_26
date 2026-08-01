@@ -6,6 +6,7 @@
 #include "Entities/AI/Monster.h"
 #include "Entities/Appearance/ChangeEmission.h"
 #include "Entities/Appearance/ChangeVisibility.h"
+#include "Entities/Logic/MathCompare.h"
 #include "Entities/Logic/MathCounter.h"
 #include "Entities/Logic/MultiRelay.h"
 #include "Entities/Logic/Relay.h"
@@ -29,6 +30,7 @@
 
 void RegisterComponents()
 {
+	RegisterComponent<MathCompare>();
 	RegisterComponent<Monster>();
 	RegisterComponent<ChangeEmission>();
 	RegisterComponent<ChangeVisibility>();

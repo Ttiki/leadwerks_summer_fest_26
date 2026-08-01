@@ -7,6 +7,7 @@ using namespace Leadwerks;
 AmbientNoise::AmbientNoise()
 { 
     //name = "AmbientNoise";
+	sound = LoadSound(soundpath);
 }
 
 void AmbientNoise::Start()
