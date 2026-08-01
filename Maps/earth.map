@@ -1,0 +1,215 @@
+{
+	"scene": {
+		"entities": [
+			{
+				"castshadows": true,
+				"collisiontype": 0,
+				"color": [
+					2.0,
+					1.899999976158142,
+					1.7000000476837158,
+					1.0
+				],
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"directionallight": {
+					"cascadedistance": [
+						4.0,
+						8.0,
+						16.0,
+						32.0
+					],
+					"range": [
+						-500.0,
+						500.0
+					],
+					"shadowmapsize": 1024
+				},
+				"elasticity": 0.4000000059604645,
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"matrix": [
+					"0x3f51b3f4",
+					"0x32800000",
+					"0xbf12d5e5",
+					"0x0",
+					"0x3ef08fae",
+					"0x3f12d5ea",
+					"0x3f2bc74d",
+					"0x0",
+					"0x3ea8715a",
+					"0xbf51b3ef",
+					"0x3ef08fb8",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"navobstacle": false,
+				"physicsmode": 0,
+				"pickmode": 0,
+				"position": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"quaternion": [
+					"0xbee17926",
+					"0xbe8890bd",
+					"0x3e0e2ed1",
+					"0x3f5890a5"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x425c0000",
+					"0x420c0000",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "56b87c8f-b06e-4d5d-b89e-27c26ea0b04e",
+				"viewrange": 0.0
+			}
+		],
+		"environment": {
+			"ambientlight": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"diffusereflection": {
+				"path": "Materials/Environment/Default/diffuse.dds"
+			},
+			"fog": false,
+			"fogangle": [
+				0.0,
+				15.0
+			],
+			"fogcolor": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"fogrange": [
+				0.0,
+				1000.0
+			],
+			"gitransmission": 2.0,
+			"iblintensity": 0.5,
+			"skybox": {
+				"path": "Materials/Environment/Default/skybox.dds"
+			},
+			"skyintensity": 1.0,
+			"specularreflection": {
+				"path": "Materials/Environment/Default/specular.dds"
+			},
+			"sunangle": [
+				55.0,
+				35.0
+			],
+			"suncolor": [
+				2.0,
+				1.899999976158142,
+				1.0
+			],
+			"tonemappingmode": 0
+		},
+		"extras": {
+			"viewports": [
+				{
+					"cameraposition": [
+						0.0,
+						2.86788,
+						-4.09576
+					],
+					"camerarotation": [
+						35.0,
+						0.0,
+						0.0
+					],
+					"gridsize": 0,
+					"view": 0,
+					"zoom": 1.42815
+				},
+				{
+					"cameraposition": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"camerarotation": [
+						90.0,
+						0.0,
+						0.0
+					],
+					"gridsize": 0,
+					"view": 3,
+					"zoom": 60.0
+				},
+				{
+					"cameraposition": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"camerarotation": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"gridsize": 0,
+					"view": 5,
+					"zoom": 60.0
+				},
+				{
+					"cameraposition": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"camerarotation": [
+						0.0,
+						90.0,
+						0.0
+					],
+					"gridsize": 0,
+					"view": 1,
+					"zoom": 60.0
+				}
+			]
+		},
+		"groups": [
+			{
+				"id": "2061079600",
+				"name": "Brushes"
+			},
+			{
+				"id": "2061069920",
+				"name": "Entities"
+			},
+			{
+				"id": "2061071856",
+				"name": "Models"
+			}
+		]
+	}
+}

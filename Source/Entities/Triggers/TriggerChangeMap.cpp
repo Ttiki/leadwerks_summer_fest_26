@@ -10,7 +10,7 @@ void TriggerChangeMap::Start()
 
 	
     auto entity = GetEntity();
-    world = entity->GetWorld();
+    
     if (entity->GetCollisionType() == COLLISION_TRIGGER)
     {
         entity->SetRenderLayers(0);
@@ -23,10 +23,11 @@ void TriggerChangeMap::Start()
 
 void TriggerChangeMap::Collide(shared_ptr<Entity> collidedentity, const Vec3& position, const Vec3& normal, const float speed)
 {
-	if (mapName != "" && enabled)
+	if (mapName.empty() && enabled)
 	{
+        auto entity = GetEntity();
 		// Load the new map
-        LoadScene(world, "Maps/" + mapName);
+        LoadScene(entity->GetWorld(), "Maps/" + mapName);
 	}
 }
 
