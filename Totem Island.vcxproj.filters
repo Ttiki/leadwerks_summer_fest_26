@@ -113,6 +113,21 @@
 		<ClCompile Include="Source\Entities\Player\SrcPlayer.cpp">
 			<Filter>Source Files\Entities\Player</Filter>
 		</ClCompile>
+		<ClCompile Include="Source\Entities\Triggers\TriggerTeleport.cpp">
+			<Filter>Source Files\Entities\Triggers</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Triggers\TriggerClip.cpp">
+			<Filter>Source Files\Entities\Triggers</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Triggers\TriggerChangeMap.cpp">
+			<Filter>Source Files\Entities\Triggers</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Physics\FuncBrush.cpp">
+			<Filter>Source Files\Entities\Physics</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Logic\MathCounter.cpp">
+			<Filter>Source Files\Entities\Logic</Filter>
+		</ClCompile>
 	</ItemGroup>
 	<ItemGroup>
 		<ClInclude Include="Source\resource.h">
@@ -342,6 +357,21 @@
 		</ClInclude>
 		<ClInclude Include="Source\Entities\Player\SrcPlayer.h">
 			<Filter>Header Files\Entities\Player</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Triggers\TriggerTeleport.h">
+			<Filter>Header Files\Entities\Triggers</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Triggers\TriggerClip.h">
+			<Filter>Header Files\Entities\Triggers</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Triggers\TriggerChangeMap.h">
+			<Filter>Header Files\Entities\Triggers</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Physics\FuncBrush.h">
+			<Filter>Header Files\Entities\Physics</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Logic\MathCounter.h">
+			<Filter>Header Files\Entities\Logic</Filter>
 		</ClInclude>
 	</ItemGroup>
 	<ItemGroup>

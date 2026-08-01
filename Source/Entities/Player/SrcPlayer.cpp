@@ -90,12 +90,11 @@ bool SrcPlayer::ProcessEvent(const Event& e)
 		{
 			jumpkey = true;
 		}
-		else if (e.data == KEY_SHIFT)
+		if (e.data == KEY_CONTROL)
 		{
-			//if (weapon and not weapon->PlayerCanRun()) return true;
-			//running = true;
+			crouchkey = true;
 		}
-		else if (e.data == KEY_E)
+		if (e.data == KEY_E)
 		{
 			if (world)
 			{
@@ -119,13 +118,9 @@ bool SrcPlayer::ProcessEvent(const Event& e)
 		{
 			jumpkey = false;
 		}
-		else if (e.data == KEY_SHIFT)
+		if (e.data == KEY_CONTROL)
 		{
-			//running = false;
-		}
-		else if (e.data == KEY_ALT)
-		{
-			//walking = false;
+			crouchkey = false;
 		}
 		break;
 	}
@@ -150,11 +145,38 @@ void SrcPlayer::Update()
 	if (not GetEnabled()) return;
 	if (GetHealth() <= 0) return;
 
+	UpdateMovement();
+}
+void SrcPlayer::UpdateFootsteps()
+{
+	auto entity = GetEntity();
+	auto world = entity->GetWorld();
+	if (not world) return;
+	if (not entity->GetAirborne() and movement.Length() > 0.0f)
+	{
+		auto now = world->GetTime();
+		float speed = entity->GetVelocity().xz().Length();
+		int footsteptime = Clamp(500.0f * this->movespeed / speed, 250.0f, 1000.0f);
+		if (now - lastfootsteptime > footsteptime)
+		{
+			lastfootsteptime = now;
+			int index = Round(Random(0, sound_step.size() - 1));
+			if (sound_step[index]) sound_step[index]->Play();
+		}
+	}
+}
+
+void SrcPlayer::Collide(shared_ptr<Entity> collidedentity, const Vec3& position, const Vec3& normal, const float speed)
+{
+    
+}
+
+
+void SrcPlayer::UpdateMovement()
+{
 	movement = 0.0f;
 
 	float jump = 0;
-	bool crouchkey = false;
-	static bool crouched = false;
 
 	auto entity = GetEntity();
 
@@ -215,32 +237,30 @@ void SrcPlayer::Update()
 		if (GetEnabled())
 		{
 			float speed = movespeed;
-			crouchkey = window->KeyDown(KEY_C);
 			if (entity->GetAirborne())
 			{
 				speed *= 0.25f;
 			}
-			else
+			
+			if (running)
 			{
-				if (running)
-				{
-					speed *= 2.0f;
-				}
-				if (walking)
-				{
-					speed *= 0.5f;
-				}
-				else if (crouched)
-				{
-					speed *= 0.5f;
-				}
-
-				if (jumpkey && !crouched)
-				{
-					jump = jumpforce;
-					if (sound_jump) sound_jump->Play();
-				}
+				speed *= 2.0f;
 			}
+			if (walking)
+			{
+				speed *= 0.5f;
+			}
+			else if (crouchkey)
+			{
+				speed *= 0.5f;
+			}
+
+			if (jumpkey)
+			{
+				jump = jumpforce;
+				if (sound_jump) sound_jump->Play();
+			}
+			
 			if (window->KeyDown(KEY_D)) movement.x += speed;
 			if (window->KeyDown(KEY_A)) movement.x -= speed;
 			if (window->KeyDown(KEY_W)) movement.z += speed;
@@ -262,12 +282,10 @@ void SrcPlayer::Update()
 	if (entity->GetCrouched())
 	{
 		if (not entity->GetAirborne()) eye = croucheyeheight;
-		crouched = true;
 	}
 	else
 	{
 		eye = eyeheight;
-		crouched = false;
 	}
 
 	float y = TransformPoint(currentcameraposition, nullptr, entity).y;
@@ -275,36 +293,12 @@ void SrcPlayer::Update()
 	if (not entity->GetAirborne() and (y < eye || eye != eyeheight)) h = Mix(y, eye, 0.25f);
 	currentcameraposition = TransformPoint(0, h, 0, entity, nullptr);
 	camera->SetPosition(currentcameraposition, true);
-	
-	
+
+
 	UpdateFootsteps();
 
 	jumpkey = false;
 }
-void SrcPlayer::UpdateFootsteps()
-{
-	auto entity = GetEntity();
-	auto world = entity->GetWorld();
-	if (not world) return;
-	if (not entity->GetAirborne() and movement.Length() > 0.0f)
-	{
-		auto now = world->GetTime();
-		float speed = entity->GetVelocity().xz().Length();
-		int footsteptime = Clamp(500.0f * this->movespeed / speed, 250.0f, 1000.0f);
-		if (now - lastfootsteptime > footsteptime)
-		{
-			lastfootsteptime = now;
-			int index = Round(Random(0, sound_step.size() - 1));
-			if (sound_step[index]) sound_step[index]->Play();
-		}
-	}
-}
-
-void SrcPlayer::Collide(shared_ptr<Entity> collidedentity, const Vec3& position, const Vec3& normal, const float speed)
-{
-    
-}
-
 
 
 //This method will work with simple components

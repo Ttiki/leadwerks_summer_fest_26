@@ -164,6 +164,11 @@
 		<ClCompile Include="Source\Entities\Weapons\FPSWeapon.cpp" />
 		<ClCompile Include="Source\Entities\Weapons\Projectile.cpp" />
 		<ClCompile Include="Source\Entities\Player\SrcPlayer.cpp" />
+		<ClCompile Include="Source\Entities\Triggers\TriggerTeleport.cpp" />
+		<ClCompile Include="Source\Entities\Triggers\TriggerClip.cpp" />
+		<ClCompile Include="Source\Entities\Triggers\TriggerChangeMap.cpp" />
+		<ClCompile Include="Source\Entities\Physics\FuncBrush.cpp" />
+		<ClCompile Include="Source\Entities\Logic\MathCounter.cpp" />
 	</ItemGroup>
 	<ItemGroup>
 		<ClInclude Include="Source\ComponentSystem.h" />
@@ -242,6 +247,11 @@
 		<ClInclude Include="Source\Steamworks\public\steam\steamuniverse.h" />
 		<ClInclude Include="Source\Steamworks\Steamworks.h" />
 		<ClInclude Include="Source\Entities\Player\SrcPlayer.h" />
+		<ClInclude Include="Source\Entities\Triggers\TriggerTeleport.h" />
+		<ClInclude Include="Source\Entities\Triggers\TriggerClip.h" />
+		<ClInclude Include="Source\Entities\Triggers\TriggerChangeMap.h" />
+		<ClInclude Include="Source\Entities\Physics\FuncBrush.h" />
+		<ClInclude Include="Source\Entities\Logic\MathCounter.h" />
 	</ItemGroup>
 	<ItemGroup>
 		<ResourceCompile Include="Source\project.rc" />

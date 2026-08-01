@@ -1,14 +1,15 @@
 {
 	"project":
 	{
-		"brushtexelspermeter": 400,
+		"brushtexelspermeter": 400.0,
 		"debugcommandline": "-devmode +map \"$MAPFILE\"",
 		"debugexecutable": "Totem Island_d.exe",
+		"embedmaterialtextures": false,
 		"engineversion": "5.1.0",
 		"filetypeblacklist": "bin, meta, collider",
 		"gridbasesize": 0.16,
 		"language": "C++",
-		"majorgridlines": 8,
+		"majorgridlines": 8.0,
 		"name": "Totem Island",
 		"password": "&r*m42oE|f?ZM?&?*W2EuqyBUr;AN20ErE},*+L3HL*1{lL{tpbfbE^DvFm5J)Q#",
 		"runcommandline": "-devmode +map \"$MAPFILE\"",
