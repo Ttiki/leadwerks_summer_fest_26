@@ -15,6 +15,7 @@
 #include "Entities/Physics/SlidingDoor.h"
 #include "Entities/Physics/SwingingDoor.h"
 #include "Entities/Player/CameraControls.h"
+#include "Entities/Player/EarthPlayerController.h"
 #include "Entities/Player/FPSPlayer.h"
 #include "Entities/Player/SrcPlayer.h"
 #include "Entities/Player/VRPlayer.h"
@@ -30,10 +31,10 @@
 
 void RegisterComponents()
 {
-	RegisterComponent<MathCompare>();
 	RegisterComponent<Monster>();
 	RegisterComponent<ChangeEmission>();
 	RegisterComponent<ChangeVisibility>();
+	RegisterComponent<MathCompare>();
 	RegisterComponent<MathCounter>();
 	RegisterComponent<MultiRelay>();
 	RegisterComponent<Relay>();
@@ -42,6 +43,7 @@ void RegisterComponents()
 	RegisterComponent<SlidingDoor>();
 	RegisterComponent<SwingingDoor>();
 	RegisterComponent<CameraControls>();
+	RegisterComponent<EarthPlayerController>();
 	RegisterComponent<FPSPlayer>();
 	RegisterComponent<SrcPlayer>();
 	RegisterComponent<VRPlayer>();

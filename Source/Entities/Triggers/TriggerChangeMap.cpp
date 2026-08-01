@@ -17,20 +17,30 @@ void TriggerChangeMap::Start()
         entity->SetShadows(false);
         entity->SetPickMode(PICK_NONE);
     }
+    Print(mapName);
 }
 
 
 
 void TriggerChangeMap::Collide(shared_ptr<Entity> collidedentity, const Vec3& position, const Vec3& normal, const float speed)
 {
-	if (mapName.empty() && enabled)
-	{
-        auto entity = GetEntity();
-		// Load the new map
-        LoadScene(entity->GetWorld(), "Maps/" + mapName);
-	}
+    if (ChangeMap()) { Print("Map changed successfully."); }
+    else { Print("Failed to change map."); }
 }
 
+bool TriggerChangeMap::ChangeMap()
+{
+	if (mapName != "" && enabled)
+	{
+		auto entity = GetEntity();
+		// Load the new map
+		String concatMapName = "Maps/" + mapName + ".map";
+		Print("Loading map: " + concatMapName);
+		LoadScene(entity->GetWorld(), concatMapName);
+        return true;
+	}
+    return false;
+}
 
 
 //This method will work with simple components

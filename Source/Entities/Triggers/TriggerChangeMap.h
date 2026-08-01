@@ -7,10 +7,12 @@ using namespace Leadwerks;
 class TriggerChangeMap : public BaseComponent//Component
 {
 public: 
-    WString mapName = "";//"Map name"
+    String mapName = "";//"Map name"
     bool enabled = true;//"Enabled"
 
     virtual void Start();
+
+    virtual bool ChangeMap();
 
     virtual void Collide(std::shared_ptr<Entity> collidedentity, const Vec3& position, const Vec3& normal, const float speed);
     virtual std::shared_ptr<Component> Copy();
